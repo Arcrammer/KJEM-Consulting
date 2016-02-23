@@ -32,7 +32,7 @@ define('DB_NAME', 'KJEM-Development');
 define('DB_USER', 'alexander');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'kt8xZ35Kx8fkd8Gp');
+define('DB_PASSWORD', getenv('DOLOMITE_DATABASE_PASSWORD'));
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');

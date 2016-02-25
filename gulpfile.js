@@ -1,13 +1,15 @@
 var gulp = require('gulp');
 var exec = require('child_process').exec;
 
-// Tasks
 gulp.task('default', () => {
-  duplicateProductionDatabase();
+  // Start watching the Less files
+  exec('cd wp-content/themes/freak/assets/less && watch-less -r ../css/ -e .css')
+
+  // Start Browser-Sync
+  exec('browser-sync start --config=bs-config.js')
 });
 
-// Functions
-function duplicateProductionDatabase() {
+gulp.task('sync', () => {
   // Duplicate the production database at ialexander.io to
   // the local computer in the 'KJEM-Development' database
   var dump_filename = "Production-dump.sql";
@@ -28,4 +30,5 @@ function duplicateProductionDatabase() {
 
     console.log('Production database was successfully imported.');
   });
-};
+  return;
+})

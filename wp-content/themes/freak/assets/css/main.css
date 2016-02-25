@@ -7,7 +7,7 @@
 /* Globals */
 body {
   font-family: "Roboto Slab", sans-serif;
-  background: #ffffff;
+  background: #fff;
   word-wrap: break-word;
 }
 .mega-container {
@@ -38,7 +38,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   right: 0;
-  border-bottom: solid 6px #dddddd;
+  border-bottom: solid 6px #ddd;
 }
 #masthead {
   text-align: center;
@@ -394,7 +394,7 @@ a:hover {
     display: none !important;
   }
   .slicknav_nav a {
-    color: #777777;
+    color: #777;
   }
   .slicknav_nav a .fa {
     margin-right: 5px;
@@ -410,11 +410,11 @@ a:hover {
     border: solid 1px #ccc;
   }
   .slicknav_menutxt {
-    color: #777777 !important;
+    color: #777 !important;
     text-shadow: none !important;
   }
   .slicknav_icon-bar {
-    background-color: #777777 !important;
+    background-color: #777 !important;
   }
 }
 /* TOP MENU */
@@ -471,7 +471,7 @@ a:hover {
 #static-bar #static-menu ul li:hover > ul {
   display: block;
   width: 200px;
-  background: #dddddd;
+  background: #ddd;
   left: 0;
   top: 36px;
   padding: 10px 20px;
@@ -558,7 +558,7 @@ a:hover {
   padding: 5px 12px;
   padding-top: 7px;
   font-size: 24px;
-  color: #777777;
+  color: #777;
 }
 /* top slider */
 #slider-bg {
@@ -1170,7 +1170,7 @@ a:hover {
   color: #f07261;
 }
 .aldehyde .out-thumb .postedon a {
-  color: #777777;
+  color: #777;
   text-decoration: none;
   font-size: 13px;
 }
@@ -1254,7 +1254,7 @@ a:hover {
 }
 .pagination ul > li > a:hover {
   color: #f07261;
-  background: #ffffff;
+  background: #fff;
 }
 .pagination .current {
   background: #ddd;
@@ -1341,7 +1341,7 @@ aside:nth-child(odd) {
 }
 #secondary .widget_search input[type=search] {
   background: white;
-  border: solid 2px #dddddd;
+  border: solid 2px #ddd;
   border-radius: 0px;
   padding: 15px;
   padding-top: 12px;
@@ -1398,7 +1398,7 @@ aside:nth-child(odd) {
   font-size: 14px !important;
   text-transform: uppercase;
   font-weight: lighter;
-  color: #ffffff;
+  color: #fff;
   padding: 7px 5px;
   margin-bottom: 5px;
   display: inline-block;
@@ -1459,7 +1459,7 @@ aside:nth-child(odd) {
 /* Footer Sidebar */
 #footer-sidebar {
   background: #f7f7f7;
-  border-top: solid 3px #dddddd;
+  border-top: solid 3px #ddd;
 }
 #footer-sidebar .footer-column {
   /* Pulse Grow */
@@ -1473,7 +1473,7 @@ aside:nth-child(odd) {
   color: #5e5e5e;
 }
 #footer-sidebar .footer-column .widget a {
-  color: #777777;
+  color: #777;
   font-weight: normal;
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -1590,7 +1590,7 @@ aside:nth-child(odd) {
   text-align: center;
 }
 #colophon a {
-  color: #777777;
+  color: #777;
   text-decoration: underline;
 }
 /* Single Posts Area */
@@ -1661,7 +1661,7 @@ aside:nth-child(odd) {
 }
 #primary-mono h1.entry-title {
   font-weight: normal;
-  color: #777777;
+  color: #777;
   font-size: 30px;
   margin-top: 0px;
   padding: 10px;
@@ -1685,7 +1685,7 @@ aside:nth-child(odd) {
 }
 #primary-mono .entry-meta a,
 #primary-mono .entry-footer a {
-  color: #777777;
+  color: #777;
   text-decoration: underline;
 }
 #primary-mono .entry-meta a:hover,
@@ -1704,7 +1704,7 @@ aside:nth-child(odd) {
   margin-right: 6px;
 }
 #primary-mono .entry-content {
-  color: #777777;
+  color: #777;
   line-height: 1.7em;
   font-size: 14px;
 }
@@ -1738,7 +1738,7 @@ aside:nth-child(odd) {
 #respond textarea {
   background: #f2f2f2;
   border: solid 1px #cccccc;
-  color: #777777;
+  color: #777;
   outline: none;
 }
 #respond .comment-form-author,
@@ -1763,7 +1763,7 @@ aside:nth-child(odd) {
 #respond .comment-form-url label,
 #respond .comment-form-comment label {
   background: #f07261;
-  color: #ffffff;
+  color: #fff;
   border-bottom: solid 1px #f07261;
   padding: 5px;
   margin-right: -5px;
@@ -1783,7 +1783,7 @@ aside:nth-child(odd) {
 }
 #respond .comment-notes,
 #respond .logged-in-as {
-  color: #777777;
+  color: #777;
 }
 #comments {
   margin-top: 55px;
@@ -1818,7 +1818,7 @@ aside:nth-child(odd) {
   font-weight: normal;
 }
 #comments .vcard img {
-  border: solid 4px #ffffff;
+  border: solid 4px #fff;
   border-radius: 5px;
   margin: 0 10px 10px 0;
 }
@@ -1890,7 +1890,7 @@ aside:nth-child(odd) {
   background: white;
   border-right: solid 3px #f07261;
   padding: 15px;
-  box-shadow: inset -5px 0 5px #dddddd;
+  box-shadow: inset -5px 0 5px #ddd;
 }
 @media screen and (min-width: 768px) {
   #mobile-static-menu {

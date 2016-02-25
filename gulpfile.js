@@ -3,10 +3,10 @@ var exec = require('child_process').exec;
 
 gulp.task('default', () => {
   // Start watching the Less files
-  exec('cd wp-content/themes/freak/assets/less && watch-less -r ../css/ -e .css')
+  exec('cd wp-content/themes/freak/assets/less && watch-less -r ../css/ -e .css');
 
   // Start Browser-Sync
-  exec('browser-sync start --config=bs-config.js')
+  exec('browser-sync start --config=bs-config.js');
 });
 
 gulp.task('sync', () => {
@@ -25,10 +25,12 @@ gulp.task('sync', () => {
     console.log('Got it! Importing it to \'KJEM-Development\'...');
 
     // Import the dump to MySQL on the development server
-    exec(`mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development < ${dump_filename}`);
+    exec(`mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development < ${dump_filename}`, () => {
+      // Change the .beta TLD's to .dev in 'wp_posts'
+      exec('mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD -e "UPDATE wp_posts SET guid=replace(guid, \'.beta\', \'.dev\')" KJEM-Development');
+    });
     exec(`rm ${dump_filename}`);
 
     console.log('Production database was successfully imported.');
   });
-  return;
 })

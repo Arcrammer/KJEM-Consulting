@@ -1006,7 +1006,7 @@ a:hover {
     border-bottom: none;
   }
 }
-.grid:nth-last-child(2) {
+.grid:last-of-type {
   border: none;
 }
 .grid .featured-thumb {
@@ -1969,6 +1969,10 @@ aside:nth-child(odd) {
 /* --- Navigation Links --- */
 #top-bar {
   background-color: rgba(255, 255, 255, 0.875) !important;
+}
+/* --- Posts --- */
+.no-thumb {
+  padding-bottom: 2%;
 }
 /* --- Footer --- */
 #colophon.site-footer {

@@ -1005,7 +1005,7 @@ a:hover {
     border-bottom: none;
   }
 }
-.grid:nth-last-child(2) {
+.grid:last-of-type {
   border: none;
 }
 .grid .featured-thumb {

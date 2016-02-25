@@ -1,12 +1,4 @@
-@import 'variables';
 @import 'functions';
-
-.body-font {
-	font-family: "Roboto Slab", sans-serif;
-}
-.title-font {
-	font-family: "Bitter", sans-serif;
-}
 
 /* Globals */
 @accent: #f07261;
@@ -14,6 +6,15 @@
 @background: #fff;
 @sbg: #ddd;
 @content: #777;
+
+@import 'variables';
+
+.body-font {
+	font-family: "Roboto Slab", sans-serif;
+}
+.title-font {
+	font-family: "Bitter", sans-serif;
+}
 
 body {
 	.body-font;
@@ -1775,4 +1776,40 @@ aside:nth-child(odd) {
 			}
 		}
 	}
+}
+
+/* ----- Custom ----- */
+/* --- Banner --- */
+.site-branding .title-font {
+	font-family: "Nexa Bold", sans-serif !important;
+  letter-spacing: 0.25rem;
+}
+
+/* --- Static Bar which shows up after we have scrolled a little --- */
+#static-bar {
+  background-color: rgb(247, 247, 247);
+  padding: 0.35rem;
+  padding-top: 0.5rem;
+
+  #static-logo {
+    margin-left: 10%;
+
+    h1 {
+      padding: 0;
+    }
+
+    a {
+      display: block;
+      font-family: "Fira Sans" !important;
+      font-size: 0.725em;
+      font-weight: 300;
+      letter-spacing: -0.05rem;
+      text-shadow: none !important;
+      vertical-align: middle;
+    }
+  }
+
+  #searchicon {
+    margin-right: 10%;
+  }
 }

@@ -1779,6 +1779,16 @@ aside:nth-child(odd) {
 }
 
 /* ----- Custom ----- */
+/* --- Structure --- */
+.mega-container.content {
+  border-top: solid 3px #1f649c;
+  top: -4.75rem;
+
+  .content {
+    border-top: 0;
+  }
+}
+
 /* --- Banner --- */
 .site-branding .title-font {
 	font-family: "Nexa Bold", sans-serif !important;
@@ -1809,6 +1819,10 @@ aside:nth-child(odd) {
     }
   }
 
+  #static-menu {
+    left: 2.5rem;
+  }
+
   #searchicon {
     margin-right: 10%;
   }
@@ -1837,9 +1851,93 @@ aside:nth-child(odd) {
 }
 
 /* --- Posts --- */
+.freak-single-entry-header {
+  .layer {
+    padding: 0;
+  }
+
+  .container {
+    height: 20rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4.75rem;
+    margin: 4.35rem auto 2.35rem;
+  }
+}
+
 .no-thumb {
   // Posts who don't have thumbnails
   padding-bottom: 2%;
+}
+
+#primary-mono {
+  .entry-footer {
+    border-top: 0;
+  }
+}
+
+/* --- Comments --- */
+#respond {
+  .comment-form-comment {
+    label {
+      // Textarea Label
+      width: 100%;
+
+      &:extend(.comment-form label);
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+
+  .comment-form label {
+    font-weight: 300;
+    text-indent: 0.65rem;
+  }
+}
+
+#comments {
+  margin-top: 2.5rem;
+
+  li.comment {
+    padding: 1.5rem 1rem;
+  }
+
+  h2.comments-title {
+    font-size: 2.25rem;
+    line-height: 125%;
+  }
+
+  .comment-metadata {
+    margin-bottom: 0.35rem;
+  }
+
+  .fn {
+    // Creators' name
+    font-style: normal;
+  }
+
+  .reply {
+    float: left;
+  }
+
+  time, .edit-link {
+    margin-right: 1rem;
+  }
+
+  time {
+    margin-top: 0.225rem;
+    margin-bottom: 0.225rem;
+  }
+
+  .comment-content {
+    color: #525252 !important;
+    line-height: 165%;
+  }
 }
 
 /* --- Footer --- */

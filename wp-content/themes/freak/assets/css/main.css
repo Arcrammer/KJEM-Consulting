@@ -1924,6 +1924,14 @@ aside:nth-child(odd) {
   font-weight: normal;
 }
 /* ----- Custom ----- */
+/* --- Structure --- */
+.mega-container.content {
+  border-top: solid 3px #1f649c;
+  top: -4.75rem;
+}
+.mega-container.content .content {
+  border-top: 0;
+}
 /* --- Banner --- */
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;
@@ -1950,6 +1958,9 @@ aside:nth-child(odd) {
   text-shadow: none !important;
   vertical-align: middle;
 }
+#static-bar #static-menu {
+  left: 2.5rem;
+}
 #static-bar #searchicon {
   margin-right: 10%;
 }
@@ -1971,8 +1982,65 @@ aside:nth-child(odd) {
   background-color: rgba(255, 255, 255, 0.875) !important;
 }
 /* --- Posts --- */
+.freak-single-entry-header .layer {
+  padding: 0;
+}
+.freak-single-entry-header .container {
+  height: 20rem;
+  text-align: center;
+  width: 100%;
+}
+.freak-single-entry-header h1 {
+  font-size: 4.75rem;
+  margin: 4.35rem auto 2.35rem;
+}
 .no-thumb {
   padding-bottom: 2%;
+}
+#primary-mono .entry-footer {
+  border-top: 0;
+}
+/* --- Comments --- */
+#respond .comment-form-comment label {
+  width: 100%;
+}
+#respond .comment-form-comment textarea {
+  resize: vertical;
+}
+#respond .comment-form label {
+  font-weight: 300;
+  text-indent: 0.65rem;
+}
+#comments {
+  margin-top: 2.5rem;
+}
+#comments li.comment {
+  padding: 1.5rem 1rem;
+}
+#comments h2.comments-title {
+  font-size: 2.25rem;
+  line-height: 125%;
+}
+#comments .comment-metadata {
+  margin-bottom: 0.35rem;
+}
+#comments .fn {
+  font-style: normal;
+}
+#comments .reply {
+  float: left;
+}
+#comments time,
+#comments .edit-link {
+  margin-right: 1rem;
+}
+#comments time {
+  margin-top: 0.225rem;
+  margin-bottom: 0.225rem;
+}
+#comments .comment-content {
+  color: #525252 !important;
+  line-height: 165%;
 }
 /* --- Footer --- */
 #colophon.site-footer {

@@ -1782,7 +1782,7 @@ aside:nth-child(odd) {
 /* --- Structure --- */
 .mega-container.content {
   border-top: solid 3px #1f649c;
-  top: -4.75rem;
+  top: inherit;
 
   .content {
     border-top: 0;
@@ -1795,7 +1795,7 @@ aside:nth-child(odd) {
   letter-spacing: 0.25rem;
 }
 
-/* --- Static Bar which shows up after we have scrolled a little --- */
+/* --- Static bar which shows up after we have scrolled a little --- */
 #static-bar {
   background-color: rgb(247, 247, 247);
   padding: 0.35rem;
@@ -1852,20 +1852,37 @@ aside:nth-child(odd) {
 
 /* --- Posts --- */
 .freak-single-entry-header {
+  margin: 0;
+
   .layer {
     padding: 0;
   }
 
   .container {
-    height: 20rem;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   h1 {
     font-size: 4.75rem;
     margin: 4.35rem auto 2.35rem;
   }
+
+  .entry-meta {
+    margin: 2.5rem auto;
+  }
+}
+
+.mega-container-1 {
+  margin-top: 0;
+
+  #content {
+    margin-top: 0.5rem;
+  }
+}
+
+.mega-container-2 {
+  margin-top: 0;
 }
 
 .no-thumb {

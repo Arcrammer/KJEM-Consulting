@@ -105,6 +105,6 @@
 	<?php get_template_part('slider', 'nivo'); ?>
 	<?php get_template_part('featured', 'posts'); ?>
 
-	<div class="mega-container" >
+	<div class="mega-container mega-container-1">
 
 		<div id="content" class="site-content container">

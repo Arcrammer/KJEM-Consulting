@@ -1927,7 +1927,7 @@ aside:nth-child(odd) {
 /* --- Structure --- */
 .mega-container.content {
   border-top: solid 3px #1f649c;
-  top: -4.75rem;
+  top: inherit;
 }
 .mega-container.content .content {
   border-top: 0;
@@ -1937,7 +1937,7 @@ aside:nth-child(odd) {
   font-family: "Nexa Bold", sans-serif !important;
   letter-spacing: 0.25rem;
 }
-/* --- Static Bar which shows up after we have scrolled a little --- */
+/* --- Static bar which shows up after we have scrolled a little --- */
 #static-bar {
   background-color: #f7f7f7;
   padding: 0.35rem;
@@ -1982,17 +1982,31 @@ aside:nth-child(odd) {
   background-color: rgba(255, 255, 255, 0.875) !important;
 }
 /* --- Posts --- */
+.freak-single-entry-header {
+  margin: 0;
+}
 .freak-single-entry-header .layer {
   padding: 0;
 }
 .freak-single-entry-header .container {
-  height: 20rem;
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 .freak-single-entry-header h1 {
   font-size: 4.75rem;
   margin: 4.35rem auto 2.35rem;
+}
+.freak-single-entry-header .entry-meta {
+  margin: 2.5rem auto;
+}
+.mega-container-1 {
+  margin-top: 0;
+}
+.mega-container-1 #content {
+  margin-top: 0.5rem;
+}
+.mega-container-2 {
+  margin-top: 0;
 }
 .no-thumb {
   padding-bottom: 2%;

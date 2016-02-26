@@ -7,23 +7,23 @@
 
 get_header(); ?>
 	</div></div><!--.mega-container-->
-	
+
 	<header class="entry-header freak-single-entry-header">
 	<div class="entry-header-bg" style="background-image:url(<?php $im = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); echo $im[0]; ?>)"></div>
 	<div class="layer">
 		<div class="container">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-			
-			
+
+
 			<div class="entry-meta">
 			<?php if( have_posts() ) the_post(); ?>
 				<?php freak_posted_on(); ?>
-			<?php rewind_posts(); ?>	
+			<?php rewind_posts(); ?>
 			</div><!-- .entry-meta -->
 		</div>
-	</div>	
+	</div>
 	</header><!-- .entry-header -->
-	<div class="mega-container content">
+	<div class="mega-container content mega-container-2">
 		<div class="container content">
 	<div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?>">
 		<main id="main" class="site-main" role="main">

@@ -1980,6 +1980,7 @@ aside:nth-child(odd) {
 /* --- Navigation Links --- */
 #top-bar {
   background-color: rgba(255, 255, 255, 0.875) !important;
+  bottom: -5px;
 }
 /* --- Posts --- */
 .freak-single-entry-header {
@@ -2059,4 +2060,27 @@ aside:nth-child(odd) {
 /* --- Footer --- */
 #colophon.site-footer {
   padding: 3.5% 0;
+}
+/* --- Response --- */
+@media screen and (max-width: 991px) {
+  #masthead .top-search label {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 635px) {
+  #masthead .top-search label {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #masthead .site-branding {
+    padding: 0;
+  }
+  #masthead .site-branding h1.site-title {
+    font-size: 5.85rem;
+    margin-bottom: 5rem;
+  }
+  #masthead .top-search label {
+    width: 80%;
+  }
 }

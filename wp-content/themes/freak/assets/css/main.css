@@ -1932,6 +1932,9 @@ aside:nth-child(odd) {
 .mega-container.content .content {
   border-top: 0;
 }
+#primary {
+  overflow: auto;
+}
 /* --- Banner --- */
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;

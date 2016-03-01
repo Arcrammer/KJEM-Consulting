@@ -1935,6 +1935,9 @@ aside:nth-child(odd) {
 #primary {
   overflow: auto;
 }
+.widget_search {
+  display: none;
+}
 /* --- Banner --- */
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;
@@ -2008,10 +2011,12 @@ aside:nth-child(odd) {
 }
 .mega-container-1 {
   margin-top: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .mega-container-1 #primary,
 .mega-container-1 #primary-mono {
-  padding: 5rem 2.5rem;
+  padding: 0 2.5rem;
 }
 .mega-container-1 #primary .entry-footer,
 .mega-container-1 #primary-mono .entry-footer {

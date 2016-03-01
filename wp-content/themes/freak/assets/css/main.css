@@ -2034,6 +2034,55 @@ aside:nth-child(odd) {
 #primary-mono .entry-footer {
   border-top: 0;
 }
+/* --- Featured Videos --- */
+.featured-videos .page-description {
+  color: #595959;
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+.featured-videos .featured-video {
+  float: left;
+  margin: 2.5996533795%;
+  position: relative;
+  width: 44.71403812%;
+}
+.featured-videos .featured-video .overlay {
+  border-radius: 0.75rem;
+  position: relative;
+}
+.featured-videos .featured-video .overlay img {
+  display: none;
+}
+.featured-videos .featured-video .overlay::before {
+  background-color: rgba(73, 73, 73, 0.25);
+  border-radius: 0.75rem;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.featured-videos .featured-video .video-metadata {
+  color: #595959;
+  font-family: "Lora", serif;
+  padding: 0 0.5rem;
+  position: relative;
+}
+.featured-videos .featured-video .video-metadata a:link,
+.featured-videos .featured-video .video-metadata a:visited {
+  color: #595959;
+}
+.featured-videos .featured-video .video-metadata h1 {
+  color: #353535;
+  font-size: 2rem;
+}
+.featured-videos .featured-video .video-metadata .pro_affiliation {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
 /* --- Comments --- */
 #respond .comment-form-comment label {
   width: 100%;

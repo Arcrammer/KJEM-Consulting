@@ -1922,6 +1922,66 @@ aside:nth-child(odd) {
   }
 }
 
+/* --- Featured Videos --- */
+.featured-videos {
+  .page-description {
+    color: #595959;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .featured-video {
+    float: left;
+    margin: 2.5996533795%;
+    position: relative;
+    width: 44.71403812%;
+
+    .overlay {
+      border-radius: 0.75rem;
+      position: relative;
+
+      img {
+        display: none;
+      }
+
+      &::before {
+        background-color: rgba(73, 73, 73, 0.25);
+        border-radius: 0.75rem;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .video-metadata {
+      color: #595959;
+      font-family: "Lora", serif;
+      padding: 0 0.5rem;
+      position: relative;
+
+      a:link,
+      a:visited {
+        color: #595959;
+      }
+
+      h1 {
+        color: #353535;
+        font-size: 2rem;
+      }
+
+      .pro_affiliation {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+      }
+    }
+  }
+}
+
 /* --- Comments --- */
 #respond {
   .comment-form-comment {

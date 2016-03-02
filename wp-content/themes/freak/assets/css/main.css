@@ -1925,22 +1925,6 @@ aside:nth-child(odd) {
 }
 /* ----- Custom ----- */
 /* --- Structure --- */
-html,
-body {
-  height: 100%;
-}
-#page {
-  min-height: 100%;
-  height: auto !important;
-  /* This line and the next line are not necessary unless you need IE6 support */
-  height: 100%;
-  margin: 0 auto -155px;
-  /* the bottom margin is the negative value of the footer's height */
-}
-footer {
-  height: 155px;
-  /* .push must be the same height as .footer */
-}
 .mega-container.content {
   border-top: solid 3px #1f649c;
   top: inherit;
@@ -1953,6 +1937,9 @@ footer {
 }
 .widget_search {
   display: none;
+}
+footer {
+  margin-top: 5rem;
 }
 /* --- Banner --- */
 .site-branding .title-font {
@@ -2028,7 +2015,6 @@ footer {
 .mega-container-1 {
   margin-top: 0;
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 .mega-container-1 #primary,
 .mega-container-1 #primary-mono {

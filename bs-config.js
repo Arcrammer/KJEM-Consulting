@@ -23,6 +23,7 @@ module.exports = {
       "wp-content/themes/freak/assets/css/***",
       "wp-content/themes/freak/header*",
       "wp-content/themes/freak/page*",
+      "wp-content/themes/freak/single*",
     ],
     "watchOptions": {},
     "server": false,

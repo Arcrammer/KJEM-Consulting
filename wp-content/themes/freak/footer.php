@@ -19,10 +19,5 @@
     </div>
     <!-- #page -->
     <?php wp_footer(); ?>
-
-    <!-- MediaElement -->
-    <script>
-      $('video').mediaelementplayer();
-    </script>
   </body>
 </html>

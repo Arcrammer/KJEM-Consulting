@@ -6,9 +6,6 @@
    *
    * @package freak
    */
-
-  $jQueryLink = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js';
-  $mediaElementLink = get_template_directory_uri().'/assets/MediaElement/mediaelement-and-player.min.js';
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -20,12 +17,6 @@
     <!-- Links -->
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
-    <!-- Page Specific Stuff -->
-    <?php if (is_page('featured-videos')): ?>
-      <script src="<?= $jQueryLink ?>"></script>
-      <script src="<?= $mediaElementLink ?>"></script>
-    <?php endif ?>
 
     <!-- Everything Else -->
     <?php wp_head(); ?>

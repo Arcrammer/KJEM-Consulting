@@ -1925,6 +1925,22 @@ aside:nth-child(odd) {
 }
 /* ----- Custom ----- */
 /* --- Structure --- */
+html,
+body {
+  height: 100%;
+}
+#page {
+  min-height: 100%;
+  height: auto !important;
+  /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -155px;
+  /* the bottom margin is the negative value of the footer's height */
+}
+footer {
+  height: 155px;
+  /* .push must be the same height as .footer */
+}
 .mega-container.content {
   border-top: solid 3px #1f649c;
   top: inherit;
@@ -2095,6 +2111,50 @@ aside:nth-child(odd) {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+}
+.single-featured-video #page {
+  background-color: #2d2d2d;
+}
+.single-featured-video .mega-container-1 {
+  display: none;
+}
+.single-featured-video .mega-container-2 {
+  background-color: #2d2d2d;
+  border-top: 0;
+}
+.single-featured-video .freak-single-entry-header {
+  color: #f4f4f4;
+  font-family: "Lora", serif;
+}
+.single-featured-video .freak-single-entry-header h1 {
+  font-size: 4.5rem;
+  line-height: 75%;
+  text-shadow: none;
+}
+.single-featured-video .freak-single-entry-header h4,
+.single-featured-video .freak-single-entry-header h6 {
+  color: #e1e1e1;
+  font-family: "Lora-Italic", "Lora", serif;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.single-featured-video .freak-single-entry-header h6 {
+  font-size: 1.15rem;
+  letter-spacing: 0.1rem;
+}
+.single-featured-video #primary-mono {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.single-featured-video .mejs-container {
+  margin: 2.5rem auto 5rem;
+}
+.single-featured-video .mejs-container video {
+  border-radius: 0.75rem;
+}
+.single-featured-video .mejs-container .mejs-controls {
+  display: none;
 }
 /* --- Comments --- */
 #respond .comment-form-comment label {

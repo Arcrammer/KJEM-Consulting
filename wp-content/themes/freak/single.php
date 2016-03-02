@@ -14,7 +14,6 @@ get_header(); ?>
 		<div class="container">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-
 			<div class="entry-meta">
 			<?php if( have_posts() ) the_post(); ?>
 				<?php freak_posted_on(); ?>

@@ -2047,15 +2047,24 @@ aside:nth-child(odd) {
   position: relative;
   width: 44.71403812%;
 }
+.featured-videos .featured-video .play-icon {
+  display: block;
+  height: 45%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 .featured-videos .featured-video .overlay {
   border-radius: 0.75rem;
+  cursor: pointer;
   position: relative;
-}
-.featured-videos .featured-video .overlay img {
-  display: none;
+  overflow: auto;
 }
 .featured-videos .featured-video .overlay::before {
-  background-color: rgba(73, 73, 73, 0.25);
+  background-color: rgba(73, 73, 73, 0.35);
   border-radius: 0.75rem;
   content: '';
   position: absolute;
@@ -2063,6 +2072,10 @@ aside:nth-child(odd) {
   right: 0;
   bottom: 0;
   left: 0;
+}
+.featured-videos .featured-video .overlay img {
+  border-radius: 1rem;
+  float: left;
 }
 .featured-videos .featured-video .video-metadata {
   color: #595959;

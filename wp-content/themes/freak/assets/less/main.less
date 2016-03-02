@@ -1937,16 +1937,25 @@ aside:nth-child(odd) {
     position: relative;
     width: 44.71403812%;
 
+    .play-icon {
+      display: block;
+      height: 45%;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
     .overlay {
       border-radius: 0.75rem;
+      cursor: pointer;
       position: relative;
-
-      img {
-        display: none;
-      }
+      overflow: auto;
 
       &::before {
-        background-color: rgba(73, 73, 73, 0.25);
+        background-color: rgba(73, 73, 73, 0.35);
         border-radius: 0.75rem;
         content: '';
         position: absolute;
@@ -1954,6 +1963,11 @@ aside:nth-child(odd) {
         right: 0;
         bottom: 0;
         left: 0;
+      }
+
+      img {
+        border-radius: 1rem;
+        float: left;
       }
     }
 

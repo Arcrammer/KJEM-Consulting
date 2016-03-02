@@ -30,21 +30,18 @@
         ];
       ?>
       <article class="featured-video">
-        <div class="overlay" style="
-          background: url('<?= $video['url_without_ext'] ?>.jpg');
-          background-repeat: no-repeat;
-          background-position: top center;
-          background-size: cover;
-          height: 17.5rem;
-        ">
-          <img src="<?= $video['url_without_ext'] ?>.jpg" alt="<?= $video['title'] ?>">
+        <div class="overlay">
+          <a href="<?= get_the_permalink() ?>">
+            <img class="play-icon" src="<?= get_template_directory_uri().'/assets/icons/Play.png' ?>" alt="Play icon" />
+            <img src="<?= $video['url_without_ext'] ?>.jpg" alt="<?= $video['title'] ?>">
+          </a>
         </div> <!-- .overlay -->
         <div class="video-metadata">
           <a href="<?= get_the_permalink() ?>">
             <h1><?= $video['song_title'] ?></h1>
             <p>Written by <?= $video['writers'] ?></p>
+            <p class="pro_affiliation"><?= $video['pro_affiliation'] ?></p>
           </a>
-          <p class="pro_affiliation"><?= $video['pro_affiliation'] ?></p>
         </div> <!-- .video-metadata -->
       </article>
       <?php

@@ -100,6 +100,15 @@ function freak_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 
+  register_sidebar( array(
+		'name'          => __('Featured videos sidebar', 'freak'),
+		'id'            => 'sidebar-2',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside> <!-- .featured-videos-sidebar -->',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+
 	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'freak' ),
 		'id'            => 'footer-1',

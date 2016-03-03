@@ -18,10 +18,27 @@
     <h1 class="page-description">Some work by our writers.</h1>
     <?php
       // Just show the videos
-      $query = new WP_Query('post_type=featured-video');
+      if (!$_GET) {
+        // The user isn't sorting or
+        // anything. Just looking.
+        $query = new WP_Query('post_type=featured-video');
+      } else {
+        // There's GET data, so the
+        // user is probably sorting
+        $query = new WP_Query([
+          'post_type' => 'featured-video',
+          'meta_key' => 'song_title',
+          'meta_value' => 'Hello'
+        ]);
+      }
+
       while ($query->have_posts()):
         // Write the post to the response
-        $query->the_post();
+        if (!$_GET) {
+          $query->the_post();
+        } else {
+          $query->the_post();
+        }
 
         $video = get_field('file');
         $video += get_fields();

@@ -27,8 +27,8 @@
         // user is probably sorting
         $query = new WP_Query([
           'post_type' => 'featured-video',
-          'meta_key' => 'song_title',
-          'meta_value' => 'Hello'
+          'meta_key' => $_GET['sort_with'],
+          'meta_value' => $_GET['of']
         ]);
       }
 

@@ -2147,6 +2147,7 @@ footer {
   font-size: 1.25rem;
   line-height: 50%;
   margin-left: 2.5%;
+  margin: 0.75rem auto;
   width: 90%;
 }
 #secondary .widget_sortwidget ul ul li {
@@ -2161,12 +2162,6 @@ footer {
 #secondary .widget_sortwidget ul ul a:active {
   color: #2985d0;
   font-style: italic;
-}
-#secondary .widget_sortwidget ul ul:first-of-type {
-  margin-top: 0.75rem;
-}
-#secondary .widget_sortwidget ul ul:last-of-type {
-  margin-bottom: 0.75rem;
 }
 /* --- Comments --- */
 #respond .comment-form-comment label {

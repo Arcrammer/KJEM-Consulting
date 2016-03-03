@@ -2098,6 +2098,14 @@ footer {
   top: 0.5rem;
   right: 0.5rem;
 }
+.featured-videos .featured-video:hover .overlay::before {
+  background-color: rgba(73, 73, 73, 0.75);
+  transition: all 175ms;
+}
+.featured-videos .featured-video:hover .play-icon {
+  transform: scale(1.25);
+  transition: all 125ms;
+}
 .single-featured-video #page {
   background-color: #2d2d2d;
 }
@@ -2147,12 +2155,14 @@ footer {
   font-size: 1.25rem;
   line-height: 50%;
   margin-left: 2.5%;
-  margin: 0.75rem auto;
+  margin-bottom: 0.75rem;
   width: 90%;
 }
 #secondary .widget_sortwidget ul ul li {
   border: none;
   box-shadow: none;
+  line-height: 150%;
+  padding: 0.5rem 1rem;
 }
 #secondary .widget_sortwidget ul ul a:link,
 #secondary .widget_sortwidget ul ul a:visited {

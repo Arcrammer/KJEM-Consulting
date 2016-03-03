@@ -47,19 +47,19 @@
         ];
       ?>
       <article class="featured-video">
-        <div class="overlay">
-          <a href="<?= get_the_permalink() ?>">
+        <a href="<?= get_the_permalink() ?>">
+          <div class="overlay">
             <img class="play-icon" src="<?= get_template_directory_uri().'/assets/icons/Play.png' ?>" alt="Play icon" />
             <img src="<?= $video['url_without_ext'] ?>.jpg" alt="<?= $video['title'] ?>">
-          </a>
-        </div> <!-- .overlay -->
-        <div class="video-metadata">
-          <a href="<?= get_the_permalink() ?>">
-            <h1><?= $video['song_title'] ?></h1>
-            <p>Written by <?= $video['writers'] ?></p>
-            <p class="pro_affiliation"><?= $video['pro_affiliation'] ?></p>
-          </a>
-        </div> <!-- .video-metadata -->
+          </div> <!-- .overlay -->
+        </a>
+        <a href="<?= get_the_permalink() ?>">
+          <div class="video-metadata">
+              <h1><?= $video['song_title'] ?></h1>
+              <p>Written by <?= $video['writers'] ?></p>
+              <p class="pro_affiliation"><?= $video['pro_affiliation'] ?></p>
+          </div> <!-- .video-metadata -->
+        </a>
       </article>
       <?php
         // If comments are open or we have at least one comment, load up the comment template

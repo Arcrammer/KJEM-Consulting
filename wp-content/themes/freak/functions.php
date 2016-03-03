@@ -101,7 +101,7 @@ function freak_widgets_init() {
 	) );
 
   register_sidebar( array(
-		'name'          => __('Featured videos sidebar', 'freak'),
+		'name'          => __('Featured Videos Sidebar', 'freak'),
 		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside> <!-- .featured-videos-sidebar -->',
@@ -216,7 +216,6 @@ require get_template_directory() . '/inc/custom-header.php';
  */
 require get_template_directory() . '/inc/css-mods.php';
 
-
 /**
  * Custom template tags for this theme.
  */
@@ -236,3 +235,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Import custom widgets
+ */
+require get_template_directory().'/inc/widgets.php';

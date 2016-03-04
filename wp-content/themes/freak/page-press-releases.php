@@ -11,6 +11,8 @@
   */
 
   get_header();
+
+  $currentPageNumber = array_pop(preg_split('@/@', $_SERVER['REQUEST_URI'], NULL, PREG_SPLIT_NO_EMPTY));
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
@@ -38,6 +40,8 @@
         comments_template();
       }
     ?>
+    <a class="older-releases" href="/press/page/<?= $currentPageNumber - 1 ?>">Older Releases</a>
+    <a class="newer-releases" href="/press/page/<?= $currentPageNumber + 1 ?>">Newer Releases</a>
   </main> <!-- #main -->
 </div> <!-- #primary -->
 

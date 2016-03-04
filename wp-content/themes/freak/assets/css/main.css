@@ -2194,6 +2194,16 @@ h4.page-description {
 .page-template-page-press-releases .press-release a {
   font-size: 1.5rem;
 }
+.page-template-page-press-releases .older-releases,
+.page-template-page-press-releases .newer-releases {
+  margin-top: 2.5rem;
+}
+.page-template-page-press-releases .older-releases {
+  float: left;
+}
+.page-template-page-press-releases .newer-releases {
+  float: right;
+}
 /* --- Comments --- */
 #respond .comment-form-comment label {
   width: 100%;

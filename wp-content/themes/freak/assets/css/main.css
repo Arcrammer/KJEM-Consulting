@@ -1995,6 +1995,19 @@ footer {
   margin: auto 2.5%;
 }
 /* --- Posts --- */
+.page-description {
+  color: #595959;
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+h4.page-description {
+  font-size: 1.5rem;
+  line-height: 175%;
+}
+.page-description em {
+  color: #1f649c;
+}
 .freak-single-entry-header {
   margin: 0;
 }
@@ -2037,12 +2050,6 @@ footer {
   border-top: 0;
 }
 /* --- Featured Videos --- */
-.featured-videos .page-description {
-  color: #595959;
-  font-size: 2rem;
-  margin: 0;
-  margin-bottom: 2.5rem;
-}
 .featured-videos .featured-video {
   float: left;
   margin: 2.5996533795%;
@@ -2172,6 +2179,20 @@ footer {
 #secondary .widget_sortwidget ul ul a:active {
   color: #2985d0;
   font-style: italic;
+}
+/* --- Press Releases --- */
+.page-template-page-press-releases .press-release h4 {
+  font-family: "Lora", serif;
+  font-size: 2.35rem;
+  line-height: 150%;
+}
+.page-template-page-press-releases .press-release p {
+  font-size: 1.45rem;
+  line-height: 200%;
+  letter-spacing: 0.01rem;
+}
+.page-template-page-press-releases .press-release a {
+  font-size: 1.5rem;
 }
 /* --- Comments --- */
 #respond .comment-form-comment label {

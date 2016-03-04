@@ -22,6 +22,10 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
+    <section id="internships-banner">
+      <h4>We could use your help!</h4>
+      <p>Come view <a href="http://www.internships.com/search/posts?Keywords=&Location=&Radius=Hundred&Company=KJEM+Consulting&ListingType=None&Sort=MostRecent&FilterBy=&Page=1">our internships at  internships.com</a> &raquo;</p>
+    </section>
     <nav id="mobile-static-menu">
       <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
     </nav>

@@ -14,7 +14,6 @@
 
   $currentPageNumber = array_pop(preg_split('@/@', $_SERVER['REQUEST_URI'], NULL, PREG_SPLIT_NO_EMPTY));
   $currentPageNumber = ($currentPageNumber == "press") ? 1 : $currentPageNumber;
-  var_dump($currentPageNumber);
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">

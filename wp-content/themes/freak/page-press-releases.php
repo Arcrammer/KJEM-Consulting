@@ -32,6 +32,7 @@
         <?= get_the_content() ?>
         <a href="<?= get_the_permalink() ?>">Read More...</a>
       </article>
+      <hr />
     <?php
       endwhile;
 

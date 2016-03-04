@@ -1935,9 +1935,6 @@ aside:nth-child(odd) {
 #primary {
   overflow: auto;
 }
-.widget_search {
-  display: none;
-}
 footer {
   margin-top: 5rem;
 }

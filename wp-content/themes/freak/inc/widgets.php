@@ -112,6 +112,88 @@ class SortWidget extends WP_Widget {
   }
 }
 
+class RecentPressReleases extends WP_Widget {
+  function __construct() {
+    parent::__construct('RecentPressReleases', 'Recent Press Releases', [
+      'description' => __('Recent Posts, but for Press Releases', 'RecentPressReleases_domain')
+    ]);
+  }
+
+  /**
+   * Front-end output
+   *
+   * @param array $args
+	 * @param array $instance
+   */
+  public function widget($args, $instance) {
+    global $wpdb;
+
+    $title = apply_filters('widget_title', $instance['title']);
+    // before and after widget arguments are defined by themes
+    echo $args['before_widget'];
+
+    if (!empty($title)) echo $args['before_title'].$title.$args['after_title'];
+
+    // Get the most recent post titles
+    $fiveRecentReleases = $wpdb->get_results('SELECT * FROM wp_posts
+                        WHERE post_type="press-releases"
+                        LIMIT 5');
+
+    // This is where you run the code and display the output ?>
+    <ul>
+      <?php foreach ($fiveRecentReleases as $recentRelease): ?>
+        <li>
+          <a href="<?= get_permalink($recentRelease->ID) ?>"><?= $recentRelease->post_title ?></a>
+        </li>
+      <?php endforeach ?>
+    </ul>
+    <?php
+    echo $args['after_widget'];
+  }
+
+  /**
+   * Options form front-end output for the admin area
+   *
+   * @param array $instance Widget options
+   */
+  public function form($instance) {
+    if (isset($instance['title'])) {
+      $title = $instance['title'];
+    } else {
+      $title = __('Recent Press Releases', 'RecentPressReleases_domain');
+    }
+
+    // Widget admin form
+    ?>
+      <p>
+        <label for="<?= $this->get_field_id('title') ?>">
+          <?php _e('Title:') ?>
+        </label>
+        <input class="widefat" id="<?= $this->get_field_id('title') ?>" name="<?= $this->get_field_name('title') ?>" type="text" value="<?= esc_attr($title) ?>" />
+      </p>
+    <?php
+	}
+
+  /**
+   * Process widget options when saved
+   *
+   * @param array $new_instance The new options
+	 * @param array $old_instance The previous options
+   */
+  public function update($new_instance, $old_instance) {
+    $instance = array();
+    $instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']):
+   '';
+    return $instance;
+  }
+}
+
 add_action('widgets_init', function () {
-  register_widget('SortWidget');
+  $widgetNames = [
+    'SortWidget',
+    'RecentPressReleases'
+  ];
+  foreach ($widgetNames as $widgetName) {
+    register_widget($widgetName);
+  }
 });

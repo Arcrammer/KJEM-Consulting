@@ -103,8 +103,17 @@ function freak_widgets_init() {
   register_sidebar( array(
 		'name'          => __('Featured Videos Sidebar', 'freak'),
 		'id'            => 'sidebar-2',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
 		'after_widget'  => '</aside> <!-- .featured-videos-sidebar -->',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+
+  register_sidebar( array(
+		'name'          => __('Press Releases Sidebar', 'freak'),
+		'id'            => 'sidebar-3',
+		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
+		'after_widget'  => '</aside> <!-- .press-releases-sidebar -->',
 		'before_title'  => '<h1 class="widget-title title-font">',
 		'after_title'   => '</h1>',
 	) );

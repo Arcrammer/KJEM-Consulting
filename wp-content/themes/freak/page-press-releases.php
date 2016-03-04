@@ -13,6 +13,8 @@
   get_header();
 
   $currentPageNumber = array_pop(preg_split('@/@', $_SERVER['REQUEST_URI'], NULL, PREG_SPLIT_NO_EMPTY));
+  $currentPageNumber = ($currentPageNumber == "press") ? 1 : $currentPageNumber;
+  var_dump($currentPageNumber);
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
@@ -22,7 +24,6 @@
     <hr />
     <?php
       $query = new WP_Query('post_type=press-releases');
-
       while ($query->have_posts()):
     ?>
       <article class="press-release">
@@ -41,8 +42,11 @@
         comments_template();
       }
     ?>
-    <a class="older-releases" href="/press/page/<?= $currentPageNumber - 1 ?>">Older Releases</a>
-    <a class="newer-releases" href="/press/page/<?= $currentPageNumber + 1 ?>">Newer Releases</a>
+    <?php if ($currentPageNumber > 1): ?>
+      <a class="older-releases" href="/press/page/<?= $currentPageNumber - 1 ?>">Older Releases</a>
+    <?php endif; if ($query->found_posts >= 10): ?>
+      <a class="newer-releases" href="/press/page/<?= $currentPageNumber + 1 ?>">Newer Releases</a>
+    <?php endif ?>
   </main> <!-- #main -->
 </div> <!-- #primary -->
 

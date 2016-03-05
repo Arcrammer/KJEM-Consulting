@@ -1972,6 +1972,17 @@ footer {
   font-style: italic;
   text-decoration: underline;
 }
+#internships-banner button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 3.85rem;
+  padding: 0;
+  position: absolute;
+  right: 2.5%;
+  width: 7.5%;
+}
 /* --- Static bar which shows up after we have scrolled a little --- */
 #static-bar {
   background-color: #f7f7f7;
@@ -2096,7 +2107,7 @@ h4.page-description {
   border-radius: 0.75rem;
   cursor: pointer;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 .featured-videos .featured-video .overlay::before {
   background-color: rgba(73, 73, 73, 0.35);

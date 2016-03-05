@@ -18,6 +18,11 @@
     <!-- #colophon -->
     </div>
     <!-- #page -->
+
+    <!-- Scripts -->
+    <script src="<?= get_template_directory_uri().'/assets/scripts/main.js' ?>"></script>
+
+    <!-- Everything Else -->
     <?php wp_footer(); ?>
   </body>
 </html>

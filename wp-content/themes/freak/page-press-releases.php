@@ -27,10 +27,12 @@
     ?>
       <article class="press-release">
         <?php $query->the_post() ?>
-        <p><a href="<?= get_the_permalink() ?>"><?= get_the_author() ?></a> posted on <?= get_the_date() ?></p>
-        <h4><?= get_the_title() ?></h4>
+        <p><span><?= get_the_author() ?></span> posted on <?= get_the_date() ?></p>
+        <h4>
+          <a href="<?= get_the_permalink() ?>"><?= get_the_title() ?></a>
+        </h4>
         <?= get_the_content() ?>
-        <a href="<?= get_the_permalink() ?>">Read More...</a>
+        <a class="read-more" href="<?= get_the_permalink() ?>">Read More...</a>
       </article>
       <hr />
     <?php

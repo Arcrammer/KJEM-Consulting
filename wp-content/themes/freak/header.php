@@ -23,7 +23,7 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <?php if (!$_COOKIE['prefers_no_banner']): ?>
+    <?php if (!$_COOKIE['prefers_no_banner'] && get_option('show_internships_banner')): ?>
       <section id="internships-banner" class="banner">
         <h4>We could use your help!</h4>
         <p>Come view <a href="http://www.internships.com/search/posts?Keywords=&Location=&Radius=Hundred&Company=KJEM+Consulting&ListingType=None&Sort=MostRecent&FilterBy=&Page=1">our internships at  internships.com</a> &raquo;</p>

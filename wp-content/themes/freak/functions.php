@@ -2,14 +2,31 @@
 /**
  * Setting preferences through AJAX
  */
-function set_preferences () {
+add_action('init', function () {
   if ($_GET['action'] == 'set_prefers_no_banner') {
     setcookie('prefers_no_banner', true);
     exit(var_dump($_COOKIE));
   }
-}
+});
 
-add_action('init', 'set_preferences');
+/**
+ * Additional General Settings options
+ */
+ function bootstrap_custom_settings () {
+   add_settings_field(
+     'show_internships_banner',
+     'Internships Banner',
+     'show_internships_banner_callback',
+     'general'
+   );
+   register_setting('general', 'show_internships_banner');
+ }
+
+add_action('admin_init', 'bootstrap_custom_settings');
+
+function show_internships_banner_callback () {
+  echo '<input id="show_internships_banner" name="show_internships_banner" type="checkbox" value="1"'.checked(1, get_option('show_internships_banner'), false).'><label for="show_internships_banner">Show</label>';
+}
 
 /**
  * freak functions and definitions

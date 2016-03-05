@@ -17,5 +17,8 @@
     headerTitle.css({
       'padding-top': parseInt(headerTitle.css('padding-top')) - banner.height()
     });
+
+    // Tell the server to stop rendering it
+    $.ajax({url: '/?action=set_prefers_no_banner'});
   });
 })(jQuery);

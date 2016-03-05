@@ -2152,20 +2152,34 @@ footer {
 /* --- Press Releases --- */
 .page-template-page-press-releases {
   .press-release {
-    h4 {
+    h4 a {
+      color: rgb(51, 51, 51);
       font-family: "Lora", serif;
       font-size: 2.35rem;
       line-height: 150%;
+
+      &:hover {
+        font-style: italic;
+      }
     }
 
     p {
       font-size: 1.45rem;
       line-height: 200%;
       letter-spacing: 0.01rem;
+
+      span {
+        color: @accent;
+      }
     }
 
     a {
       font-size: 1.5rem;
+    }
+
+    a.read-more:last-of-type {
+      display: block;
+      padding: 2.5rem 0 0.5rem;
     }
   }
 
@@ -2180,6 +2194,20 @@ footer {
 
   .newer-releases {
     float: right;
+  }
+}
+
+.single-press-releases {
+  #primary-mono .entry-footer {
+    display: none;
+  }
+
+  #colophon.site-footer {
+    margin-top: 3.5rem;
+  }
+
+  .mega-container {
+    padding-top: 0;
   }
 }
 

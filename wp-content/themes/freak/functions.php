@@ -1,5 +1,17 @@
 <?php
 /**
+ * Setting preferences through AJAX
+ */
+function set_preferences () {
+  if ($_GET['action'] == 'set_prefers_no_banner') {
+    setcookie('prefers_no_banner', true);
+    exit(var_dump($_COOKIE));
+  }
+}
+
+add_action('init', 'set_preferences');
+
+/**
  * freak functions and definitions
  *
  * @package freak

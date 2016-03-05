@@ -2220,18 +2220,29 @@ h4.page-description {
   font-style: italic;
 }
 /* --- Press Releases --- */
-.page-template-page-press-releases .press-release h4 {
+.page-template-page-press-releases .press-release h4 a {
+  color: #333333;
   font-family: "Lora", serif;
   font-size: 2.35rem;
   line-height: 150%;
+}
+.page-template-page-press-releases .press-release h4 a:hover {
+  font-style: italic;
 }
 .page-template-page-press-releases .press-release p {
   font-size: 1.45rem;
   line-height: 200%;
   letter-spacing: 0.01rem;
 }
+.page-template-page-press-releases .press-release p span {
+  color: #1f649c;
+}
 .page-template-page-press-releases .press-release a {
   font-size: 1.5rem;
+}
+.page-template-page-press-releases .press-release a.read-more:last-of-type {
+  display: block;
+  padding: 2.5rem 0 0.5rem;
 }
 .page-template-page-press-releases .older-releases,
 .page-template-page-press-releases .newer-releases {
@@ -2242,6 +2253,15 @@ h4.page-description {
 }
 .page-template-page-press-releases .newer-releases {
   float: right;
+}
+.single-press-releases #primary-mono .entry-footer {
+  display: none;
+}
+.single-press-releases #colophon.site-footer {
+  margin-top: 3.5rem;
+}
+.single-press-releases .mega-container {
+  padding-top: 0;
 }
 /* --- Comments --- */
 #respond .comment-form-comment label {

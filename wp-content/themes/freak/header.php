@@ -6,6 +6,7 @@
    *
    * @package freak
    */
+   session_start();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -22,11 +23,13 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <section id="internships-banner" class="banner">
-      <h4>We could use your help!</h4>
-      <p>Come view <a href="http://www.internships.com/search/posts?Keywords=&Location=&Radius=Hundred&Company=KJEM+Consulting&ListingType=None&Sort=MostRecent&FilterBy=&Page=1">our internships at  internships.com</a> &raquo;</p>
-      <button class="close-banner">&times;</button>
-    </section>
+    <?php if (!$_COOKIE['prefers_no_banner']): ?>
+      <section id="internships-banner" class="banner">
+        <h4>We could use your help!</h4>
+        <p>Come view <a href="http://www.internships.com/search/posts?Keywords=&Location=&Radius=Hundred&Company=KJEM+Consulting&ListingType=None&Sort=MostRecent&FilterBy=&Page=1">our internships at  internships.com</a> &raquo;</p>
+        <button class="close-banner">&times;</button>
+      </section>
+    <?php endif ?>
     <nav id="mobile-static-menu">
       <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
     </nav>

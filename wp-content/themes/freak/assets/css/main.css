@@ -2197,6 +2197,9 @@ h4.page-description {
   display: none;
 }
 /* --- Featured Videos Sidebar --- */
+#secondary .widget_sortwidget ul li::before {
+  content: none;
+}
 #secondary .widget_sortwidget ul ul {
   font-size: 1.25rem;
   line-height: 50%;
@@ -2209,6 +2212,9 @@ h4.page-description {
   box-shadow: none;
   line-height: 150%;
   padding: 0.5rem 1rem;
+}
+#secondary .widget_sortwidget ul ul li::before {
+  content: "\f054";
 }
 #secondary .widget_sortwidget ul ul a:link,
 #secondary .widget_sortwidget ul ul a:visited {

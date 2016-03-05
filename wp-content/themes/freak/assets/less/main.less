@@ -2122,29 +2122,39 @@ footer {
 
 /* --- Featured Videos Sidebar --- */
 #secondary .widget_sortwidget {
-  ul ul {
-    font-size: 1.25rem;
-    line-height: 50%;
-    margin-left: 2.5%;
-    margin-bottom: 0.75rem;
-    width: 90%;
-
-    li {
-      border: none;
-      box-shadow: none;
-      line-height: 150%;
-      padding: 0.5rem 1rem;
+  ul {
+    li::before {
+      content: none;
     }
 
-    a:link,
-    a:visited {
-      color: @accent;
-    }
+    ul {
+      font-size: 1.25rem;
+      line-height: 50%;
+      margin-left: 2.5%;
+      margin-bottom: 0.75rem;
+      width: 90%;
 
-    a:hover,
-    a:active {
-      color: @accent / 0.75;
-      font-style: italic;
+      li {
+        border: none;
+        box-shadow: none;
+        line-height: 150%;
+        padding: 0.5rem 1rem;
+
+        &::before {
+          content: "\f054";
+        }
+      }
+
+      a:link,
+      a:visited {
+        color: @accent;
+      }
+
+      a:hover,
+      a:active {
+        color: @accent / 0.75;
+        font-style: italic;
+      }
     }
   }
 }

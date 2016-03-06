@@ -17,7 +17,7 @@ wp_enqueue_script('wp-mediaelement');
 wp_enqueue_style('wp-mediaelement');
 
 add_action('wp_footer', function () {
-  echo '<script src="'.get_template_directory_uri().'/assets/scripts/featured-videos.js"></script>';
+  echo '<script src="'.get_template_directory_uri().'/assets/scripts/featured-writers.js"></script>';
 }, 20);
 // 20 is the same level as enqueued scripts, so
 // it comes after them which is important because

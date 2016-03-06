@@ -17,7 +17,7 @@
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
-  <main id="main" class="site-main featured-videos" role="main">
+  <main id="main" class="site-main featured-writers" role="main">
     <h1 class="page-description">Press releases and media resources.</h1>
     <h4 class="page-description">If you’re looking for the latest events at KJEM, you’re at the right place! For enquiries contact Karen Jones at <em>(510) 493 - 3326</em> or send mail to <em>mediasupport@kjemconsulting.com</em>.</h4>
     <hr />

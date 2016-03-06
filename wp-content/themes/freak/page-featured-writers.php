@@ -1,6 +1,6 @@
 <?php
 /**
-  * Template Name: Featured Videos
+  * Template Name: Featured Writers
   *
   * This is the template that displays all pages by default.
   * Please note that this is the WordPress construct of pages
@@ -14,7 +14,7 @@
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
-  <main id="main" class="site-main featured-videos" role="main">
+  <main id="main" class="site-main featured-writers" role="main">
     <h1 class="page-description">Some work by our writers.</h1>
     <?php
       // Just show the videos
@@ -32,7 +32,7 @@
         // There's GET data, so the
         // user is probably sorting
         $query = new WP_Query([
-          'post_type' => 'featured-video',
+          'post_type' => 'featured-writer',
           'meta_key' => $_GET['sort_with'],
           'meta_value' => $_GET['of']
         ]);
@@ -47,7 +47,7 @@
           'url_without_ext' => preg_replace('/\\.[^.\\s]{3,4}$/', '', $video['url'])
         ];
       ?>
-      <article class="featured-video">
+      <article class="featured-writer">
         <a href="<?= get_the_permalink() ?>">
           <div class="overlay">
             <img class="play-icon" src="<?= get_template_directory_uri().'/assets/icons/Play.png' ?>" alt="Play icon" />

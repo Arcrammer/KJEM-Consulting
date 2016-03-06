@@ -133,7 +133,7 @@ function freak_widgets_init() {
 		'name'          => __('Featured Videos Sidebar', 'freak'),
 		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
-		'after_widget'  => '</aside> <!-- .featured-videos-sidebar -->',
+		'after_widget'  => '</aside> <!-- .featured-writers-sidebar -->',
 		'before_title'  => '<h1 class="widget-title title-font">',
 		'after_title'   => '</h1>',
 	) );

@@ -21,7 +21,13 @@
       if (!$_GET) {
         // The user isn't sorting or
         // anything. Just looking.
-        $query = new WP_Query('post_type=featured-video');
+        $query = new WP_Query([
+          // Audio should come first
+          'post_type' => 'featured-video',
+          'meta_key' => 'media_type',
+          'orderby' => 'meta_value',
+          'order' => 'ASC'
+        ]);
       } else {
         // There's GET data, so the
         // user is probably sorting
@@ -33,15 +39,10 @@
       }
 
       while ($query->have_posts()):
-        // Write the post to the response
-        if (!$_GET) {
-          $query->the_post();
-        } else {
-          $query->the_post();
-        }
+        $query->the_post();
 
-        $video = get_field('file');
-        $video += get_fields();
+        $video = get_fields();
+        $video += get_field('file');
         $video += [
           'url_without_ext' => preg_replace('/\\.[^.\\s]{3,4}$/', '', $video['url'])
         ];

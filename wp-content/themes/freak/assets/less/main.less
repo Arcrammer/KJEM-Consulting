@@ -1909,7 +1909,18 @@ footer {
 #top-menu ul {
   li {
     margin: auto 2.5%;
+
+    a:hover, a:active {
+      text-decoration: none;
+    }
   }
+}
+
+.current_page_item a {
+  border-bottom: 3px solid @accent;
+  font-style: italic;
+  margin-bottom: -12.5px;
+  text-decoration: none !important;
 }
 
 /* --- Posts --- */
@@ -2006,6 +2017,7 @@ footer {
     .overlay {
       border-radius: 0.75rem;
       cursor: pointer;
+      min-height: 85px;
       position: relative;
       overflow: hidden;
 
@@ -2019,6 +2031,18 @@ footer {
         bottom: 0;
         left: 0;
       }
+
+
+      &.is-audio {
+        .play-icon {
+          height: 60%;
+        }
+
+        &::before {
+          background-color: rgba(73, 73, 73, 0.75);
+        }
+      }
+
 
       img {
         border-radius: 1rem;
@@ -2063,7 +2087,7 @@ footer {
   }
 }
 
-.single-featured-writer {
+.single-featured-video {
   #page {
     background-color: #2d2d2d;
   }

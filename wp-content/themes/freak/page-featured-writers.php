@@ -41,24 +41,27 @@
       while ($query->have_posts()):
         $query->the_post();
 
-        $video = get_fields();
-        $video += get_field('file');
-        $video += [
-          'url_without_ext' => preg_replace('/\\.[^.\\s]{3,4}$/', '', $video['url'])
+        $song = get_fields();
+        $song += get_field('file');
+        $song += [
+          'url_without_ext' => preg_replace('/\\.[^.\\s]{3,4}$/', '', $song['url'])
         ];
+        $song['is_video'] = preg_match('/video/', get_field('file')['mime_type']);
       ?>
       <article class="featured-writer">
         <a href="<?= get_the_permalink() ?>">
-          <div class="overlay">
+          <div class="overlay <?= ($song['is_video']) ? '' : 'is-audio' ?>">
             <img class="play-icon" src="<?= get_template_directory_uri().'/assets/icons/Play.png' ?>" alt="Play icon" />
-            <img src="<?= $video['url_without_ext'] ?>.jpg" alt="<?= $video['title'] ?>">
+            <?php if ($song['is_video']): ?>
+              <img src="<?= $song['url_without_ext'] ?>.jpg" alt="<?= $song['title'] ?>">
+            <?php endif ?>
           </div> <!-- .overlay -->
         </a>
         <a href="<?= get_the_permalink() ?>">
           <div class="video-metadata">
-              <h1><?= $video['song_title'] ?></h1>
-              <p>Written by <?= $video['writers'] ?></p>
-              <p class="pro_affiliation"><?= $video['pro_affiliation'] ?></p>
+              <h1><?= $song['song_title'] ?></h1>
+              <p>Written by <?= $song['writers'] ?></p>
+              <p class="pro_affiliation"><?= $song['pro_affiliation'] ?></p>
           </div> <!-- .video-metadata -->
         </a>
       </article>

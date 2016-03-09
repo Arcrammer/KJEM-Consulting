@@ -44,7 +44,7 @@ class SortWidget extends WP_Widget {
                      WHERE meta_key="genre"
                      GROUP BY meta_value'),
       'Mood' => $wpdb
-      ->get_results('SELECT "mood" AS property_name, meta_value
+      ->get_results('SELECT "moods" AS property_name, meta_value
                      FROM wp_postmeta
                      WHERE meta_key="moods"
                      GROUP BY meta_value'),

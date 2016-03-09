@@ -31,16 +31,20 @@
       } else {
         // There's GET data, so the
         // user is probably sorting
-        // $query = new WP_Query([
-        //   'post_type' => 'featured-writer',
-        //   'meta_key' => $_GET['sort_with'],
-        //   'meta_value' => $_GET['of']
-        // ]);
-        $query = new WP_Query([
-          'post_type' => 'featured-writer',
-          'meta_key' => $_GET['sort_with'],
-          'meta_value' => $_GET['of']
-        ]);
+        if ($_GET['sort_with'] != 'moods') {
+          $query = new WP_Query([
+            'post_type' => 'featured-video',
+            'meta_key' => $_GET['sort_with'],
+            'meta_value' => $_GET['of']
+          ]);
+        } else {
+          $query = new WP_Query([
+            'post_type' => 'featured-video',
+            'meta_key' => $_GET['sort_with'],
+            'meta_value' => $_GET['of'],
+            'meta_compare' => 'IN'
+          ]);
+        }
       }
 
       while ($query->have_posts()):

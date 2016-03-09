@@ -14,7 +14,6 @@ add_action('init', function () {
  */
 function maybe ($post_id) {
   $provided_moods = preg_split('/(?!\s)([\W\s]+)/', get_field('mood'));
-  add_post_meta($post_id, 'moods', $provided_moods);
   foreach ($provided_moods as $provided_mood) {
     add_post_meta($post_id, 'moods', $provided_mood);
   }

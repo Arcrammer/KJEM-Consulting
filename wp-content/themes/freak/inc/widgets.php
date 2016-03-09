@@ -46,7 +46,7 @@ class SortWidget extends WP_Widget {
       'Mood' => $wpdb
       ->get_results('SELECT "mood" AS property_name, meta_value
                      FROM wp_postmeta
-                     WHERE meta_key="mood"
+                     WHERE meta_key="moods"
                      GROUP BY meta_value'),
       'Copyright' => $wpdb
       ->get_results('SELECT "copyright_protection" AS property_name, meta_value

@@ -5,10 +5,6 @@
  * @package freak
  */
 
-// if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-// 	return;
-// }
-
 if (is_active_sidebar('sidebar-1')
     || is_active_sidebar('sidebar-2')
     || is_active_sidebar('sidebar-3')):

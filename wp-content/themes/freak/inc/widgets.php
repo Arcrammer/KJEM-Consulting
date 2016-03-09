@@ -3,7 +3,7 @@
 class SortWidget extends WP_Widget {
   function __construct() {
     parent::__construct('SortWidget', 'Sort Featured Videos', [
-      'description' => __('Sort featured videos by custom fields (or should I say \'supports\')', 'SortWidget_domain')
+      'description' => __('Sort featured videos by custom fields', 'SortWidget_domain')
     ]);
   }
 
@@ -61,6 +61,7 @@ class SortWidget extends WP_Widget {
     ]; ?>
       <ul>
       <?php foreach ($videoProperties as $name => $available): ?>
+        <?php if (!empty($available)): ?>
           <li><?= $name ?></li>
           <ul>
             <?php foreach ($available as $a): ?>
@@ -71,6 +72,7 @@ class SortWidget extends WP_Widget {
               <?php endif ?>
             <?php endforeach ?>
           </ul>
+        <?php endif ?>
       <?php endforeach ?>
       </ul>
     <?php

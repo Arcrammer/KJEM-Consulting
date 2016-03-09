@@ -53,7 +53,7 @@ class SortWidget extends WP_Widget {
                      FROM wp_postmeta
                      WHERE meta_key="copyright_protection"
                      GROUP BY meta_value'),
-      'P.R.O.' =>$wpdb
+      'P.R.O.' => $wpdb
       ->get_results('SELECT "pro_affiliation" AS property_name, meta_value
                      FROM wp_postmeta
                      WHERE meta_key="pro_affiliation"
@@ -61,14 +61,16 @@ class SortWidget extends WP_Widget {
     ]; ?>
       <ul>
       <?php foreach ($videoProperties as $name => $available): ?>
-        <li><?= $name ?></li>
-        <ul>
-          <?php foreach ($available as $a): ?>
-            <a href="?sort_with=<?= $a->property_name ?>&of=<?= $a->meta_value ?>">
-              <li><?= $a->meta_value ?></li>
-            </a>
-          <?php endforeach ?>
-        </ul>
+          <li><?= $name ?></li>
+          <ul>
+            <?php foreach ($available as $a): ?>
+              <?php if (!empty($a->property_name) && !empty($a->meta_value)): ?>
+                <a href="?sort_with=<?= $a->property_name ?>&of=<?= $a->meta_value ?>">
+                  <li><?= $a->meta_value ?></li>
+                </a>
+              <?php endif ?>
+            <?php endforeach ?>
+          </ul>
       <?php endforeach ?>
       </ul>
     <?php

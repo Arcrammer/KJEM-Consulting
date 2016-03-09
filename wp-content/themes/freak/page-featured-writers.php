@@ -11,6 +11,19 @@
   */
 
   get_header();
+
+  // $query = new WP_Query('post_type=featured-video');
+  // $posts = $query->get_posts();
+  // for ($i=0; $i<$query->post_count; $i++) {
+  //     add_post_meta($posts[$i]->ID, 'moods', [
+  //     'bitter',
+  //     'sweet',
+  //     'moody',
+  //     'victorious',
+  //     'romantic',
+  //     'salty'
+  //   ]);
+  // }
 ?>
 
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">

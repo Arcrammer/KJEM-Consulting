@@ -31,13 +31,14 @@
       } else {
         // There's GET data, so the
         // user is probably sorting
-        if ($_GET['sort_with'] != 'moods') {
+        if ($_GET && $_GET['sort_with'] != 'moods') {
           $query = new WP_Query([
             'post_type' => 'featured-video',
             'meta_key' => $_GET['sort_with'],
             'meta_value' => $_GET['of']
           ]);
         } else {
+          // We're sorting moods
           $query = new WP_Query([
             'post_type' => 'featured-video',
             'meta_key' => $_GET['sort_with'],

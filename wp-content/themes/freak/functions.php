@@ -12,13 +12,25 @@ add_action('init', function () {
 /**
  * ACF Stuff
  */
-function maybe ($post_id) {
-  $provided_moods = preg_split('/(?!\s)([\W\s]+)/', get_field('mood'));
-  foreach ($provided_moods as $provided_mood) {
-    add_post_meta($post_id, 'moods', $provided_mood);
+function acf_save_post ($post_id) {
+  if (get_post_type($post_id) == 'featured-video') {
+    // Save a record for each tag
+    $provided_moods = preg_split('/(?!\s)([\W\s]+)/', get_field('mood'));
+    foreach ($provided_moods as $provided_mood) {
+      add_post_meta($post_id, 'moods', $provided_mood);
+    }
+
+    // Determine whether the post is audio or video
+    if (preg_match('/video/', get_field('file')['mime_type'])) {
+      // We can assume it's video
+      add_post_meta($post_id, 'media_type', 'video');
+    } else {
+      // We can assume it's audio
+      add_post_meta($post_id, 'media_type', 'audio');
+    }
   }
 }
-add_action('acf/save_post', 'maybe', 20);
+add_action('acf/save_post', 'acf_save_post', 20);
 
 /**
  * Additional General Settings options

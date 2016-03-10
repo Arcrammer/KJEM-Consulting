@@ -2098,6 +2098,10 @@ footer {
     background-color: #2d2d2d;
   }
 
+  .container.content {
+    padding: 0;
+  }
+
   .mega-container-1 {
     display: none;
   }
@@ -2138,7 +2142,7 @@ footer {
 
   // MediaElement
   .mejs-container {
-    margin: 2.5rem auto 5rem;
+    margin: 2.5rem auto;
 
     video {
       border-radius: 0.75rem;
@@ -2148,9 +2152,13 @@ footer {
       display: none;
     }
   }
+
+  #colophon.site-footer {
+    margin-top: 1rem;
+  }
 }
 
-/* --- Featured Videos Sidebar --- */
+/* --- Featured Writer Sorting Widget --- */
 #secondary .widget_sortwidget {
   ul {
     li::before {
@@ -2365,6 +2373,7 @@ footer {
   // Pancake menu
   #mobile-static-menu {
     background-color: transparent;
+    border-right: solid 6px hsla(207,67%,22.5%,0.15);
     box-shadow: none;
     padding-top: 5rem;
   }
@@ -2373,10 +2382,42 @@ footer {
     margin: 0;
   }
 
+  // Internships banner
+  #internships-banner {
+    h4 {
+      padding: 2rem 0 0 2rem;
+    }
+
+    p {
+      padding: 1.75rem;
+    }
+  }
+
   // Posts
   .mega-container-1 #primary-mono {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .mega-container-1 #primary, {
+    margin-bottom: 3.5rem;
+  }
+
+  .single .entry-title {
+    font-size: 2.5rem;
+    line-height: 150%;
+  }
+
+  .no-thumb {
+    padding: 0;
+  }
+
+  .grid {
+    border-bottom: solid 1px #eee;
+
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
 
   // Sidebar

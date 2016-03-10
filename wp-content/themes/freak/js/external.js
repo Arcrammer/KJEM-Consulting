@@ -87,9 +87,10 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
     //  }
 
      function m(a) {
-       if (f() && !g(a)) {
-         l(a)
-       } else if (f() && g(a)) {
+      //  if (f() && !g(a)) {
+      //    l(a)
+      //  } else
+       if (f() && g(a)) {
          j(a)
        } else if (!f() && g(a)) {
          k(a)

@@ -2175,6 +2175,9 @@ h4.page-description {
 .single-featured-video #page {
   background-color: #2d2d2d;
 }
+.single-featured-video .container.content {
+  padding: 0;
+}
 .single-featured-video .mega-container-1 {
   display: none;
 }
@@ -2208,7 +2211,7 @@ h4.page-description {
   width: 100%;
 }
 .single-featured-video .mejs-container {
-  margin: 2.5rem auto 5rem;
+  margin: 2.5rem auto;
 }
 .single-featured-video .mejs-container video {
   border-radius: 0.75rem;
@@ -2216,7 +2219,10 @@ h4.page-description {
 .single-featured-video .mejs-container .mejs-controls {
   display: none;
 }
-/* --- Featured Videos Sidebar --- */
+.single-featured-video #colophon.site-footer {
+  margin-top: 1rem;
+}
+/* --- Featured Writer Sorting Widget --- */
 #secondary .widget_sortwidget ul li::before {
   content: none;
 }
@@ -2372,15 +2378,38 @@ h4.page-description {
   }
   #mobile-static-menu {
     background-color: transparent;
+    border-right: solid 6px rgba(19, 61, 96, 0.15);
     box-shadow: none;
     padding-top: 5rem;
   }
   .current_page_item a {
     margin: 0;
   }
+  #internships-banner h4 {
+    padding: 2rem 0 0 2rem;
+  }
+  #internships-banner p {
+    padding: 1.75rem;
+  }
   .mega-container-1 #primary-mono {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+  .mega-container-1 #primary {
+    margin-bottom: 3.5rem;
+  }
+  .single .entry-title {
+    font-size: 2.5rem;
+    line-height: 150%;
+  }
+  .no-thumb {
+    padding: 0;
+  }
+  .grid {
+    border-bottom: solid 1px #eee;
+  }
+  .grid:last-of-type {
+    border-bottom: none;
   }
   #secondary {
     padding: 0;

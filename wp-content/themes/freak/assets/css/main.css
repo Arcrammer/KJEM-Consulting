@@ -2346,6 +2346,38 @@ h4.page-description {
   #top-menu {
     padding: 0;
   }
+  .mobile-toggle-bar {
+    background-color: #F9F9F9;
+    border-bottom: solid 2px #1f649c;
+    overflow: auto;
+    padding: 0.25rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .mobile-toggle-button {
+    background-color: transparent;
+    font-size: 2.75rem;
+    padding: 0;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 12.5%;
+  }
+  .mobile-toggle-button:focus {
+    border: 0;
+    box-shadow: none;
+  }
+  #mobile-static-menu {
+    background-color: transparent;
+    box-shadow: none;
+    padding-top: 5rem;
+  }
+  .current_page_item a {
+    margin: 0;
+  }
   .mega-container-1 #primary-mono {
     padding-left: 0.75rem;
     padding-right: 0.75rem;

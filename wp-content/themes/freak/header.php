@@ -34,7 +34,9 @@
       <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
     </nav>
     <?php if ( !get_theme_mod('freak_disable_static_bar_mobile') ) : ?>
-    <button class="mobile-toggle-button"><i class="fa fa-bars"></i></button>
+    <div class="mobile-toggle-bar">
+      <button class="mobile-toggle-button"><i class="fa fa-bars"></i></button>
+    </div> <!-- .mobile-toggle-bar -->
     <?php endif; ?>
     <div id="page" class="hfeed site">
     <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'freak' ); ?></a>

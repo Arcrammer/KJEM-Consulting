@@ -2327,10 +2327,8 @@ footer {
 
 /* --- Response --- */
 @media screen and (max-width: 991px) {
-  #masthead .top-search {
-    label {
-      width: 40%;
-    }
+  #masthead.header-medium .top-search {
+    padding-bottom: 7.5rem;
   }
 
   // Structure
@@ -2395,7 +2393,9 @@ footer {
 
   // Posts
   .mega-container-1 #primary-mono {
+    overflow: auto;
     padding-left: 0.75rem;
+    padding-bottom: 5rem;
     padding-right: 0.75rem;
   }
 
@@ -2408,6 +2408,11 @@ footer {
     line-height: 150%;
   }
 
+  .single-featured-video .entry-meta h1 {
+    line-height: 115%;
+    margin: 3.25rem auto 0;
+  }
+
   .no-thumb {
     padding: 0;
   }
@@ -2415,8 +2420,42 @@ footer {
   .grid {
     border-bottom: solid 1px #eee;
 
+    .out-thumb h1 a {
+      line-height: 150%;
+      text-decoration: none;
+
+      &:before {
+        left: 0;
+      }
+    }
+
     &:last-of-type {
       border-bottom: none;
+    }
+  }
+
+  // Featured writers
+  .featured-writers .featured-writer {
+    width: 95%;
+
+    .overlay {
+      min-height: 115px;
+    }
+
+    .video-metadata {
+      padding: 0 1.25rem;
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+
+      .pro_affiliation {
+        right: 1.25rem;
+      }
     }
   }
 

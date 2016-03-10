@@ -2343,8 +2343,8 @@ h4.page-description {
 }
 /* --- Response --- */
 @media screen and (max-width: 991px) {
-  #masthead .top-search label {
-    width: 40%;
+  #masthead.header-medium .top-search {
+    padding-bottom: 7.5rem;
   }
   #top-bar > .container:first-of-type {
     padding: 0;
@@ -2392,7 +2392,9 @@ h4.page-description {
     padding: 1.75rem;
   }
   .mega-container-1 #primary-mono {
+    overflow: auto;
     padding-left: 0.75rem;
+    padding-bottom: 5rem;
     padding-right: 0.75rem;
   }
   .mega-container-1 #primary {
@@ -2402,14 +2404,43 @@ h4.page-description {
     font-size: 2.5rem;
     line-height: 150%;
   }
+  .single-featured-video .entry-meta h1 {
+    line-height: 115%;
+    margin: 3.25rem auto 0;
+  }
   .no-thumb {
     padding: 0;
   }
   .grid {
     border-bottom: solid 1px #eee;
   }
+  .grid .out-thumb h1 a {
+    line-height: 150%;
+    text-decoration: none;
+  }
+  .grid .out-thumb h1 a:before {
+    left: 0;
+  }
   .grid:last-of-type {
     border-bottom: none;
+  }
+  .featured-writers .featured-writer {
+    width: 95%;
+  }
+  .featured-writers .featured-writer .overlay {
+    min-height: 115px;
+  }
+  .featured-writers .featured-writer .video-metadata {
+    padding: 0 1.25rem;
+  }
+  .featured-writers .featured-writer .video-metadata h1 {
+    font-size: 1.75rem;
+  }
+  .featured-writers .featured-writer .video-metadata p {
+    font-size: 1.5rem;
+  }
+  .featured-writers .featured-writer .video-metadata .pro_affiliation {
+    right: 1.25rem;
   }
   #secondary {
     padding: 0;

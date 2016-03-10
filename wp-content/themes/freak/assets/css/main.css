@@ -2076,7 +2076,7 @@ h4.page-description {
 }
 .mega-container-1 {
   margin-top: 0;
-  padding-top: 5rem;
+  padding-top: 2.5rem;
 }
 .mega-container-1 #primary,
 .mega-container-1 #primary-mono {
@@ -2097,6 +2097,9 @@ h4.page-description {
 }
 #primary-mono .entry-footer {
   border-top: 0;
+}
+.single-post .mega-container {
+  padding-top: 0;
 }
 /* --- Featured Videos --- */
 .featured-writers .featured-writer {
@@ -2336,6 +2339,38 @@ h4.page-description {
 @media screen and (max-width: 991px) {
   #masthead .top-search label {
     width: 40%;
+  }
+  #top-bar > .container:first-of-type {
+    padding: 0;
+  }
+  #top-menu {
+    padding: 0;
+  }
+  .mega-container-1 #primary-mono {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  #secondary {
+    padding: 0;
+  }
+  #secondary .widget {
+    padding: 0;
+    padding-top: 4rem;
+    position: relative;
+    width: 100%;
+  }
+  #secondary .widget h1 {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    left: 1rem;
+  }
+  #secondary .widget ul {
+    padding: 1.5rem;
+  }
+  #colophon.site-footer {
+    margin-top: 2.5rem;
+    padding: 7.5% 0;
   }
 }
 @media screen and (max-width: 635px) {

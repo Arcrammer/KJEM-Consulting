@@ -1964,7 +1964,7 @@ footer {
 
 .mega-container-1 {
   margin-top: 0;
-  padding-top: 5rem;
+  padding-top: 2.5rem;
 
   #primary,
   #primary-mono {
@@ -1992,6 +1992,12 @@ footer {
 #primary-mono {
   .entry-footer {
     border-top: 0;
+  }
+}
+
+.single-post {
+  .mega-container {
+    padding-top: 0;
   }
 }
 
@@ -2318,6 +2324,50 @@ footer {
       width: 40%;
     }
   }
+
+  // Structure
+  #top-bar > .container:first-of-type {
+    padding:0
+  }
+
+  #top-menu {
+    padding: 0;
+  }
+
+  // Posts
+  .mega-container-1 #primary-mono {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  // Sidebar
+  #secondary {
+    padding: 0;
+
+    .widget {
+      padding: 0;
+      padding-top: 4rem;
+      position: relative;
+      width: 100%;
+
+      h1 {
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        left: 1rem;
+      }
+
+      ul {
+        padding: 1.5rem;
+      }
+    }
+  }
+
+  // Footer
+  #colophon.site-footer {
+    margin-top: 2.5rem;
+    padding: 7.5% 0;
+  }
 }
 
 @media screen and (max-width: 635px) {
@@ -2338,6 +2388,7 @@ footer {
         margin-bottom: 5rem;
       }
     }
+
     .top-search label {
       width: 80%;
     }

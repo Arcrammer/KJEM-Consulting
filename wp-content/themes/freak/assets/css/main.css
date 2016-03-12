@@ -2488,3 +2488,8 @@ h4.page-description {
   src: url('../fonts/Nexa-Bold.eot');
   src: url('../fonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Nexa-Bold.woff2') format('woff2'), url('../fonts/Nexa-Bold.woff') format('woff'), url('../fonts/Nexa-Bold.ttf') format('truetype'), url('../fonts/Nexa-Bold.svg#nexa_boldregular') format('svg');
 }
+@font-face {
+  font-family: "Fira Sans";
+  src: url('../fonts/FiraSans-Regular.eot');
+  src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Regular.woff2') format('woff2'), url('../fonts/FiraSans-Regular.woff') format('woff'), url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.svg#nexa_boldregular') format('svg');
+}

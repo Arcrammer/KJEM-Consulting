@@ -21,7 +21,7 @@ gulp.task('sync', () => {
 
   // Get a dump of the production database
   console.log('Fetching the production database...');
-  exec(`mysqldump -u alexander -h ialexander.io --password=$ULLMANNITE_DATABASE_PASSWORD KJEM-Production > ${dump_filename}`, (err, stdout, stderr) => {
+  exec(`mysqldump -u kjemcon1 -h kjemconsulting.com --password=$KJEM_PRODUCTION_PASSWORD kjemcon1_wp_v3n9 > ${dump_filename}`, (err, stdout, stderr) => {
     console.log('Got it! Importing it to \'KJEM-Development\'...');
 
     // Import the dump to MySQL on the development server

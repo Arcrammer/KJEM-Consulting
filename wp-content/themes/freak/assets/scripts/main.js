@@ -15,19 +15,6 @@
     banner.css({
       'top': adminBar.height()
     });
-
-    // Hide the banner when the cross is clicked
-    banner.click(function (event) {
-      $(event.target).closest('.banner').css('display', 'none');
-
-      // Move the content up again
-      headerTitle.css({
-        'padding-top': parseInt(headerTitle.css('padding-top')) - extraHeight
-      });
-
-      // Tell the server to stop rendering it
-      $.ajax({url: '/?action=set_prefers_no_banner'});
-    });
   });
 })(jQuery);
 

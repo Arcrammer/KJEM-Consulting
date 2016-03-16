@@ -52,6 +52,14 @@ function show_internships_banner_callback () {
 }
 
 /**
+ * Make WooCommerce shut up about the theme support
+ */
+function woocommerce_support () {
+  add_theme_support('woocommerce');
+}
+add_action('after_setup_theme', 'woocommerce_support');
+
+/**
  * freak functions and definitions
  *
  * @package freak

@@ -17,7 +17,7 @@
     });
 
     // Hide the banner when the cross is clicked
-    banner.click(function (event) {
+    $('.close-banner').click(function (event) {
       $(event.target).closest('.banner').css('display', 'none');
 
       // Move the content up again

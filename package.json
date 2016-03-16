@@ -1,0 +1,21 @@
+{
+  "name": "kjem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bs-config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcrammer/KJEM-Consulting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arcrammer/KJEM-Consulting/issues"
+  },
+  "homepage": "https://github.com/Arcrammer/KJEM-Consulting#readme"
+}

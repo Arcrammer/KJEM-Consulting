@@ -33,4 +33,4 @@ gulp.task('sync', () => {
 
     console.log('Production database was successfully imported.');
   });
-})
+});

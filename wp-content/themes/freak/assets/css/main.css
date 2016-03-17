@@ -2295,6 +2295,54 @@ h4.page-description {
 .single-press-releases .mega-container {
   padding-top: 0;
 }
+/* --- Contact --- */
+#contact-form {
+  text-align: center;
+}
+#contact-form input,
+#contact-form textarea {
+  background-color: rgba(252, 252, 252, 0.95);
+  border: 2px solid #dcdcdc;
+  border-radius: 0.5rem;
+  margin: 0.867062047%;
+}
+#contact-form input {
+  float: left;
+  padding: 1rem 0;
+  text-indent: 2.25rem;
+  width: 48.208649811%;
+}
+#contact-form textarea {
+  padding: 2.25rem;
+  resize: vertical;
+  width: 98.263888889%;
+}
+#contact-form .contact-submit-button {
+  color: #505050;
+  font-size: 1.65rem;
+  line-height: 185%;
+  margin: 2.5rem auto;
+  transition: all 125ms;
+  width: 22.5%;
+}
+#contact-form .contact-submit-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.sending-snackbar {
+  background: aqua;
+  position: fixed;
+  bottom: -10rem;
+  left: 40%;
+  right: 0;
+  text-align: center;
+  transition: all 175ms;
+  width: 20%;
+}
+.sending-snackbar p {
+  margin: 0;
+  padding: 1.5rem;
+}
 /* --- Comments --- */
 #respond .comment-form-comment label {
   width: 100%;
@@ -2468,6 +2516,9 @@ h4.page-description {
 @media screen and (max-width: 635px) {
   #masthead .top-search label {
     width: 50%;
+  }
+  #contact-form input {
+    width: 98.269980507% !important;
   }
 }
 @media screen and (max-width: 450px) {

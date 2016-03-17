@@ -2259,6 +2259,61 @@ footer {
   }
 }
 
+/* --- Contact --- */
+#contact-form {
+  text-align: center;
+
+  input, textarea {
+    background-color: rgba(252, 252, 252, 0.95);
+    border: 2px solid #dcdcdc;
+    border-radius: 0.5rem;
+    margin: 0.867062047%;
+  }
+
+  input {
+    float: left;
+    padding: 1rem 0;
+    text-indent: 2.25rem;
+    width: 48.208649811%;
+  }
+
+  textarea {
+    padding: 2.25rem;
+    resize: vertical;
+    width: 98.263888889%;
+  }
+
+  .contact-submit-button {
+    color: #505050;
+    font-size: 1.65rem;
+    line-height: 185%;
+    margin: 2.5rem auto;
+    transition: all 125ms;
+    width: 22.5%;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.sending-snackbar {
+  background: aqua;
+  position: fixed;
+  bottom: -10rem;
+  left: 40%;
+  right: 0;
+  text-align: center;
+  transition: all 175ms;
+  width: 20%;
+
+  p {
+    margin: 0;
+    padding: 1.5rem;
+  }
+}
+
 /* --- Comments --- */
 #respond {
   .comment-form-comment {
@@ -2459,6 +2514,13 @@ footer {
     }
   }
 
+  // Contact
+  #contact-form {
+    input {
+
+    }
+  }
+
   // Sidebar
   #secondary {
     padding: 0;
@@ -2490,9 +2552,17 @@ footer {
 }
 
 @media screen and (max-width: 635px) {
+  // Structure
   #masthead .top-search {
     label {
       width: 50%;
+    }
+  }
+
+  // Contact
+  #contact-form {
+    input {
+      width: 98.269980507% !important;
     }
   }
 }

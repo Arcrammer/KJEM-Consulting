@@ -21,10 +21,6 @@
         beforeSend: function () {
           // Tell the user it's sending
           snackbar.css('bottom', '0');
-        },
-        success: function (response) {
-          // Tell the user it's sent
-          $('.sending-snackbar p').text('Sent!');
 
           // Disable the form so they don't
           // send the message again
@@ -33,8 +29,16 @@
           messageField.attr('disabled', 'disabled');
           $('.contact-submit-button').attr('disabled', 'disabled');
 
-          // Hide the snackbar after a few seconds
+          // Show them they can't edit the
+          // form with the 'not-allowed' cursor
+          $('#contact-form *').css('cursor', 'not-allowed');
+        },
+        success: function (response) {
+          // Tell the user it's sent
+          $('.sending-snackbar p').text('Sent!');
+
           setTimeout(function () {
+            // Hide the snackbar
             snackbar.css('bottom', '-10rem');
           }, 3000);
         }

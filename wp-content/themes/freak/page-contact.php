@@ -14,7 +14,7 @@
 
  if ($_POST) {
    $message = $_POST['message']."\n\nReply to ".filter_var($_POST['email_address'], FILTER_SANITIZE_EMAIL).".";
-   $message_sent = wp_mail('Alexander2475914@gmail.com', 'Message from '.$_POST['first_name'].'at KJEM Consulting', $message);
+   $message_sent = wp_mail('Alexander2475914@gmail.com', 'Message from '.$_POST['first_name'].' at KJEM Consulting', $message);
 
    exit(json_encode([
      "message" => ($message_sent) ? "Message sent." : "There was a problem sending the message.",
@@ -26,6 +26,7 @@ get_header();
 ?>
 <div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
   <main id="main" class="site-main" role="main">
+    <h1 class="page-description">Send a message.</h1>
     <form id="contact-form" method="POST">
       <input type="text" name="first_name" placeholder="First Name">
       <input type="email" name="email_address" placeholder="Email Address">

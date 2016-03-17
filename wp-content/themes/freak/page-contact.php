@@ -14,7 +14,7 @@
 
  if ($_POST) {
    $message = $_POST['message']."\n\nReply to ".filter_var($_POST['email_address'], FILTER_SANITIZE_EMAIL).".";
-   $message_sent = wp_mail('Alexander2475914@gmail.com', 'Message from '.$_POST['first_name'].' at KJEM Consulting', $message);
+   $message_sent = wp_mail('Karen@kjemconsulting.com', 'Message from '.$_POST['first_name'].' at KJEM Consulting', $message);
 
    exit(json_encode([
      "message" => ($message_sent) ? "Message sent." : "There was a problem sending the message.",

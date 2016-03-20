@@ -27,7 +27,7 @@ get_header(); ?>
 				<?php
 					/* Include the Post-Format-specific template for the content.
 					 */
-					do_action('freak_blog_layout'); 
+					do_action('freak_blog_layout');
 				?>
 
 			<?php endwhile; ?>

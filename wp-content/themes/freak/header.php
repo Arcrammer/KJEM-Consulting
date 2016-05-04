@@ -46,7 +46,7 @@ session_start();
       </div>
     </div>
     <?php if ( !get_theme_mod('freak_disable_static_bar') ) : ?>
-    <div id="static-bar">
+    <!-- <div id="static-bar">
       <div id="static-logo">
         <?php if ( get_theme_mod('freak_logo') != "" ) : ?>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_theme_mod('freak_logo') ); ?>"></a>
@@ -58,7 +58,7 @@ session_start();
           </a>
         </h1>
         <?php endif; ?>
-      </div>
+      </div> -->
       <div id="static-menu">
         <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
       </div>

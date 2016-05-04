@@ -45,28 +45,6 @@ session_start();
         <?php get_search_form(); ?>
       </div>
     </div>
-    <?php if ( !get_theme_mod('freak_disable_static_bar') ) : ?>
-    <!-- <div id="static-bar">
-      <div id="static-logo">
-        <?php if ( get_theme_mod('freak_logo') != "" ) : ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_theme_mod('freak_logo') ); ?>"></a>
-        <?php else : ?>
-        <h1 class="site-title title-font">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-          <img src="<?= get_site_icon_url(150) ?>" alt="" />
-          <?php bloginfo( 'name' ); ?>
-          </a>
-        </h1>
-        <?php endif; ?>
-      </div> -->
-      <div id="static-menu">
-        <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
-      </div>
-      <a id="searchicon" >
-      <i class="fa fa-search"></i>
-      </a>
-    </div>
-    <?php endif; ?>
     <header id="masthead" class="site-header <?php do_action('freak_header_class'); ?>" role="banner" <?php do_action('freak_parallax_options'); ?>>
       <div class="layer">
         <div class="container">

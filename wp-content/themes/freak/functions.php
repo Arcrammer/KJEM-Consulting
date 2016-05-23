@@ -1,5 +1,4 @@
 <?php
-
 /**
  * freak functions and definitions
  *
@@ -101,16 +100,6 @@ function freak_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 
-
-  register_sidebar( array(
-		'name'          => __('About Sidebar', 'freak'),
-		'id'            => 'sidebar-4',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside> <!-- .widget %2$s -->',
-		'before_title'  => '<h1 class="widget-title title-font">',
-		'after_title'   => '</h1>',
-	) );
-
 	register_sidebar( array(
 		'name'          => __( 'Footer 1', 'freak' ),
 		'id'            => 'footer-1',
@@ -159,19 +148,19 @@ function freak_scripts() {
 
 	wp_enqueue_style('freak-body-font', '//fonts.googleapis.com/css?family='.str_replace(" ", "+", get_theme_mod('freak_body_font', 'Roboto Slab') ).':100,300,400,700' );
 
-	wp_enqueue_style( 'freak-fontawesome-style', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css' );
 
-	wp_enqueue_style( 'freak-nivo-style', get_template_directory_uri() . '/assets/css/nivo-slider.css' );
+	wp_enqueue_style( 'nivo-slider', get_template_directory_uri() . '/assets/css/nivo-slider.css' );
 
-	wp_enqueue_style( 'freak-nivo-skin-style', get_template_directory_uri() . '/assets/css/nivo-default/default.css' );
+	wp_enqueue_style( 'nivo-skin-style', get_template_directory_uri() . '/assets/css/nivo-default/default.css' );
 
-	wp_enqueue_style( 'freak-bootstrap-style', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstra', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap.min.css' );
 
 	wp_enqueue_style( 'freak-hover-style', get_template_directory_uri() . '/assets/css/hover.min.css' );
 
-	wp_enqueue_style( 'freak-slicknav', get_template_directory_uri() . '/assets/css/slicknav.css' );
+	wp_enqueue_style( 'slicknav', get_template_directory_uri() . '/assets/css/slicknav.css' );
 
-	wp_enqueue_style( 'freak-fleximage-style', get_template_directory_uri() . '/assets/css/jquery.flex-images.css' );
+	wp_enqueue_style( 'fleximage', get_template_directory_uri() . '/assets/css/jquery.flex-images.css' );
 
 	wp_enqueue_style( 'freak-main-theme-style', get_template_directory_uri() . '/assets/css/main.css' );
 
@@ -218,6 +207,7 @@ require get_template_directory() . '/inc/custom-header.php';
  */
 require get_template_directory() . '/inc/css-mods.php';
 
+
 /**
  * Custom template tags for this theme.
  */
@@ -237,8 +227,3 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
-
-/**
- * Import custom widgets
- */
-require get_template_directory().'/inc/widgets.php';

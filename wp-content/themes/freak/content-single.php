@@ -9,8 +9,8 @@
 	<div id="featured-image">
 			<?php the_post_thumbnail('full'); ?>
 		</div>
-
-
+			
+			
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php

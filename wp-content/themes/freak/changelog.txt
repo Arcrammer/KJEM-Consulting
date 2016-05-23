@@ -1,6 +1,15 @@
 ChangeLog
 =========
 
+Version 1.0.1.0
+
+	i) Disabled Repetitive Featured images on Paged Posts.
+
+Version 1.0.0.9
+
+	i) Used Proper names for Enquing Scripts
+	ii) Slight CSS Update.
+
 Version 1.0.0.8
 
 	i) - Removed the_archive_description & the_archive_title functions, to use Core Implementations.

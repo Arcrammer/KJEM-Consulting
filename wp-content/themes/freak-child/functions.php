@@ -1,9 +1,13 @@
 <?php
 
-add_action('wp_enqueue_scripts', function () {
+function theme_enqueue_styles () {
+  wp_dequeue_style('freak-main-theme-style');
+  wp_deregister_style('freak-main-theme-style');
+
   wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
   wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', ['parent-style']);
-});
+}
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 20);
 
 /**
  * Setting preferences through AJAX
@@ -70,20 +74,71 @@ add_action('after_setup_theme', 'woocommerce_support');
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-register_sidebar( array(
-	'name'          => __('Featured Videos Sidebar', 'freak'),
-	'id'            => 'sidebar-2',
-	'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
-	'after_widget'  => '</aside> <!-- .featured-writers-sidebar -->',
-	'before_title'  => '<h1 class="widget-title title-font">',
-	'after_title'   => '</h1>',
-) );
-
-register_sidebar( array(
-	'name'          => __('Press Releases Sidebar', 'freak'),
-	'id'            => 'sidebar-3',
-	'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
-	'after_widget'  => '</aside> <!-- .press-releases-sidebar -->',
-	'before_title'  => '<h1 class="widget-title title-font">',
-	'after_title'   => '</h1>',
-) );
+function freak_child_widgets_init() {
+	register_sidebar( array(
+		'name'          => __( 'Sidebar', 'freak' ),
+		'id'            => 'sidebar-1',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+  register_sidebar( array(
+		'name'          => __('Featured Videos Sidebar', 'freak'),
+		'id'            => 'sidebar-2',
+		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
+		'after_widget'  => '</aside> <!-- .featured-writers-sidebar -->',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+  register_sidebar( array(
+		'name'          => __('Press Releases Sidebar', 'freak'),
+		'id'            => 'sidebar-3',
+		'before_widget' => '<aside id="%1$s" class="widget widget_recent_entries %2$s">',
+		'after_widget'  => '</aside> <!-- .press-releases-sidebar -->',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+  register_sidebar( array(
+		'name'          => __('About Sidebar', 'freak'),
+		'id'            => 'sidebar-4',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside> <!-- .widget %2$s -->',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer 1', 'freak' ),
+		'id'            => 'footer-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer 2', 'freak' ),
+		'id'            => 'footer-2',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer 3', 'freak' ),
+		'id'            => 'footer-3',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer 4', 'freak' ),
+		'id'            => 'footer-4',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title title-font">',
+		'after_title'   => '</h1>',
+	) );
+}
+add_action( 'widgets_init', 'freak_child_widgets_init' );

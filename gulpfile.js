@@ -24,7 +24,7 @@ gulp.task('default', () => {
       './wp-content/themes/freak/js/*'
     ],
     open: true,
-    browser: "Google Chrome Canary"
+    browser: "Google Chrome"
   });
 });
 

@@ -24,6 +24,9 @@ body {
   background: #fff;
   word-wrap: break-word;
 }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: normal;
+}
 .mega-container {
   background: white;
   max-width: 1100px;
@@ -80,7 +83,7 @@ a:hover {
   }
 }
 #masthead h1.site-title {
-  font-size: 76px;
+  font-size: 2.75rem;
   font-weight: 100;
   margin-top: 0px;
 }
@@ -547,11 +550,13 @@ a:hover {
   margin-right: 10px;
 }
 #static-bar #static-logo h1 {
+  font-size: 2.75rem;
   margin: 0;
   padding: 5px 10px;
 }
 #static-bar #static-logo h1 a {
   color: #444444;
+  line-height: 52.5px;
   text-shadow: #777 1px 0px 1px;
 }
 #static-bar #static-logo img {
@@ -1936,6 +1941,7 @@ aside:nth-child(odd) {
   font-size: 14px;
   font-weight: normal;
 }
+
 /* ----- Custom ----- */
 /* --- Structure --- */
 .mega-container.content {
@@ -1951,11 +1957,13 @@ aside:nth-child(odd) {
 footer {
   margin-top: 5rem;
 }
+
 /* --- Banner --- */
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;
   letter-spacing: 0.25rem;
 }
+
 /* --- Internships Banner --- */
 #internships-banner {
   background-color: #4aa3e5;
@@ -1998,6 +2006,7 @@ footer {
   right: 2.5%;
   width: 7.5%;
 }
+
 /* --- Static bar which shows up after we have scrolled a little --- */
 #static-bar {
   background-color: #f7f7f7;
@@ -2025,6 +2034,7 @@ footer {
 #static-bar #searchicon {
   margin-right: 10%;
 }
+
 /* --- Search Bar --- */
 #masthead .top-search label {
   width: 30%;
@@ -2038,6 +2048,7 @@ footer {
   text-align: center;
   width: 100%;
 }
+
 /* --- Navigation Links --- */
 #top-bar {
   background-color: rgba(255, 255, 255, 0.875) !important;
@@ -2056,6 +2067,7 @@ footer {
   margin-bottom: -12.5px;
   text-decoration: none !important;
 }
+
 /* --- Posts --- */
 .page-description {
   color: #595959;
@@ -2114,10 +2126,12 @@ h4.page-description {
 .single-post .mega-container {
   padding-top: 0;
 }
+
 /* --- Blog Posts --- */
 .single-blog .mega-container-1 {
   display: none;
 }
+
 /* --- Featured Videos --- */
 .featured-writers .featured-writer {
   float: left;
@@ -2239,6 +2253,7 @@ h4.page-description {
 .single-featured-video #colophon.site-footer {
   margin-top: 1rem;
 }
+
 /* --- Featured Writer Sorting Widget --- */
 #secondary .widget_sortwidget ul li::before {
   content: none;
@@ -2268,6 +2283,7 @@ h4.page-description {
   color: #2985d0;
   font-style: italic;
 }
+
 /* --- Press Releases --- */
 .page-template-page-press-releases .press-release h4 a {
   color: #333333;
@@ -2312,6 +2328,7 @@ h4.page-description {
 .single-press-releases .mega-container {
   padding-top: 0;
 }
+
 /* --- Contact --- */
 #contact-form {
   text-align: center;
@@ -2366,6 +2383,7 @@ h4.page-description {
   margin: 0;
   padding: 1.5rem;
 }
+
 /* --- Comments --- */
 #respond .comment-form-comment label {
   width: 100%;
@@ -2408,10 +2426,12 @@ h4.page-description {
   color: #525252 !important;
   line-height: 165%;
 }
+
 /* --- Footer --- */
 #colophon.site-footer {
   padding: 3.5% 0;
 }
+
 /* --- Response --- */
 @media screen and (max-width: 991px) {
   #masthead.header-medium .top-search {
@@ -2556,6 +2576,7 @@ h4.page-description {
     width: 80%;
   }
 }
+
 /* --- Fonts --- */
 @font-face {
   font-family: "Nexa Bold";

@@ -17,8 +17,6 @@
         ?>
     </footer> <!-- #colophon -->
     </div> <!-- #page -->
-    <!-- Scripts -->
-    <script src="<?= get_stylesheet_directory_uri().'/assets/scripts/main.js' ?>"></script>
 
     <!-- Everything Else -->
     <?php wp_footer(); ?>

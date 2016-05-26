@@ -29,7 +29,7 @@ gulp.task('default', () => {
   });
 });
 
-gulp.task('sync', (done) => {
+gulp.task('db:pull', (done) => {
   // Duplicate the production database at ialexander.io to
   // the local computer in the 'KJEM-Development' database
   var dump_filename = "Production-dump.sql";
@@ -57,6 +57,32 @@ gulp.task('sync', (done) => {
     });
   });
 });
+
+gulp.task('db:push', (done) => {
+  // Duplicate the development database at Dolomite to
+  // the server in the 'kjemcon1_wp_v3n9' database
+  var dump_filename = "Development-dump.sql";
+
+  // Throw an error if MySQL isn't running
+  exec('mysql --password=$DOLOMITE_DATABASE_PASSWORD', (err) => {
+    if (err) throw err;
+  });
+
+  // Get a dump of the development database
+  exec(`mysqldump -u alexander -h localhost --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development > ${dump_filename}`, (err, stdout, stderr) => {
+
+    // Upload the dump to the production server
+    console.log('Uploading the development database to the server...');
+    exec(`scp -r ${dump_filename} kjem:~/${dump_filename}`, (err) => {
+
+    // Import the dump to MySQL on the production server
+    exec(`mysql -u kjemcon1_wp_v3n9 --password=$KJEM_PRODUCTION_PASSWORD kjemcon1_wp_v3n9 < ${dump_filename}`, () => {
+        done();
+        process.exit();
+      });
+    });
+  });
+})
 
 gulp.task('assets', (done) => {
   exec('scp -r kjem:~/public_html/wp-content/uploads ./wp-content', (err) => {

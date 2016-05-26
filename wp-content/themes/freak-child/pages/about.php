@@ -8,31 +8,47 @@
  * @package freak-child
  */
 
-$query = new WP_Query([
+$aboutPagePost = new WP_Query([
   'post_type' => 'page',
   'post_name__in' => ['about'] // WordPress being annoying >_____>
 ]);
 
-get_header(); ?>
+$biographyQuery = new WP_Query('post_type=intern_biography');
 
-	<div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
-		<main id="main" class="site-main" role="main">
+get_header();
+?>
 
-			<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+<div id="primary-mono" class="content-area <?php do_action('freak_primary-width') ?> page">
+	<main id="main" class="site-main" role="main">
 
-				<?php get_template_part( 'content', 'page' ); ?>
+    <?php
+      while ($aboutPagePost->have_posts()) {
+        $aboutPagePost->the_post();
+        get_template_part('content', 'page');
 
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
+        echo "<pre>";
+          var_dump($biographyQuery->get_posts());
+        echo "</pre>";
 
-			<?php endwhile; // end of the loop. ?>
+        if ($biographyQuery->have_posts()) {
+          while ($biographyQuery->have_posts()):
+            $biographyQuery->the_post();
+          ?>
+            <section class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
+            </section> <!-- .intern -->
+          <?php
+          endwhile;
+        }
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+        // If comments are open or we have at least
+        // one comment, load up the comment template
+				if (comments_open() || get_comments_number()) {
+					comments_template();
+        }
+      }
+    ?>
+	</main> <!-- #main -->
+</div> <!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

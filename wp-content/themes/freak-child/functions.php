@@ -23,6 +23,26 @@ add_action('init', function () {
   }
 });
 
+function create_biography_post_type() {
+  register_post_type('intern_biography', [
+    'labels' => [
+      'name' => 'Biographies',
+      'singular_name' => 'Biography'
+    ],
+    'public' => true,
+    'has_archive' => true,
+    'menu_icon' => 'dashicons-book-alt',
+    'supports' => [
+      'title',
+      'editor',
+      'excerpt',
+      'thumbnail'
+    ]
+  ]);
+  add_theme_support('post-thumbnails', ['intern_biography']);
+}
+add_action('init', 'create_biography_post_type');
+
 /**
  * ACF Stuff
  */

@@ -11,9 +11,6 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  freak-child
 */
-img { width: auto; height: auto; }
-
-
 /* Globals */
 .body-font {
   font-family: "Roboto Slab", sans-serif;
@@ -28,6 +25,10 @@ body {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: normal;
+}
+img {
+  height: auto;
+  width: 100%;
 }
 .mega-container {
   background: white;
@@ -1972,7 +1973,6 @@ footer {
   color: #f2f2f2;
   overflow: auto;
   position: absolute;
-  margin-top: 32px;
   top: 0;
   right: 0;
   left: 0;

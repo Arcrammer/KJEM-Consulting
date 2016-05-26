@@ -22,12 +22,12 @@ add_action('init', function () {
     exit(var_dump($_COOKIE));
   }
 
-  // add_filter('post_thumbnail_html', 'remove_width_attribute', 10);
-  // add_filter('image_send_to_editor', 'remove_width_attribute', 10);
-  //
-  // function remove_width_attribute($html) {
-  //   return preg_replace('/(width|height)="\d*"\s/', "", $html);
-  // }
+  // Get rid of height and width attributes on images
+  add_filter('post_thumbnail_html', 'remove_width_attribute', 10);
+  add_filter('image_send_to_editor', 'remove_width_attribute', 10);
+  function remove_width_attribute($html) {
+    return preg_replace('/(width|height)="\d*"\s/', "", $html);
+  }
 });
 
 function create_biography_post_type() {

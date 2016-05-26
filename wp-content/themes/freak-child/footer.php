@@ -20,5 +20,8 @@
 
     <!-- Everything Else -->
     <?php wp_footer(); ?>
+
+    <!-- Scripts -->
+    <script src="<?= get_stylesheet_directory_uri().'/assets/scripts/main.js' ?>"></script>
   </body>
 </html>

@@ -1,17 +1,3 @@
-/*
- Theme Name:   Freak Child
- Theme URI:    http://example.com/freak-child/
- Description:  Freak Child Theme
- Author:       Alexander Rhett Crammer
- Author URI:   http://ialexander.io/
- Template:     freak
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  freak-child
-*/
-
 /* Globals */
 .body-font {
   font-family: "Roboto Slab", sans-serif;
@@ -23,9 +9,6 @@ body {
   font-family: "Roboto Slab", sans-serif;
   background: #fff;
   word-wrap: break-word;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  line-height: normal;
 }
 .mega-container {
   background: white;
@@ -47,6 +30,9 @@ a:hover {
 }
 .container {
   margin: auto;
+}
+.screen-reader-text {
+  display: none;
 }
 /* ---------- Header ------------- */
 #top-bar {
@@ -83,7 +69,7 @@ a:hover {
   }
 }
 #masthead h1.site-title {
-  font-size: 2.75rem;
+  font-size: 76px;
   font-weight: 100;
   margin-top: 0px;
 }
@@ -550,13 +536,11 @@ a:hover {
   margin-right: 10px;
 }
 #static-bar #static-logo h1 {
-  font-size: 2.75rem;
   margin: 0;
   padding: 5px 10px;
 }
 #static-bar #static-logo h1 a {
   color: #444444;
-  line-height: 52.5px;
   text-shadow: #777 1px 0px 1px;
 }
 #static-bar #static-logo img {
@@ -1941,7 +1925,6 @@ aside:nth-child(odd) {
   font-size: 14px;
   font-weight: normal;
 }
-
 /* ----- Custom ----- */
 /* --- Structure --- */
 .mega-container.content {
@@ -1957,20 +1940,17 @@ aside:nth-child(odd) {
 footer {
   margin-top: 5rem;
 }
-
 /* --- Banner --- */
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;
   letter-spacing: 0.25rem;
 }
-
 /* --- Internships Banner --- */
 #internships-banner {
   background-color: #4aa3e5;
   color: #f2f2f2;
   overflow: auto;
   position: absolute;
-  margin-top: 32px;
   top: 0;
   right: 0;
   left: 0;
@@ -2007,7 +1987,6 @@ footer {
   right: 2.5%;
   width: 7.5%;
 }
-
 /* --- Static bar which shows up after we have scrolled a little --- */
 #static-bar {
   background-color: #f7f7f7;
@@ -2035,7 +2014,6 @@ footer {
 #static-bar #searchicon {
   margin-right: 10%;
 }
-
 /* --- Search Bar --- */
 #masthead .top-search label {
   width: 30%;
@@ -2049,7 +2027,6 @@ footer {
   text-align: center;
   width: 100%;
 }
-
 /* --- Navigation Links --- */
 #top-bar {
   background-color: rgba(255, 255, 255, 0.875) !important;
@@ -2068,7 +2045,6 @@ footer {
   margin-bottom: -12.5px;
   text-decoration: none !important;
 }
-
 /* --- Posts --- */
 .page-description {
   color: #595959;
@@ -2121,18 +2097,19 @@ h4.page-description {
 .no-thumb {
   padding-bottom: 2%;
 }
+.attachment-freak-thumb {
+  width: 100%;
+}
 #primary-mono .entry-footer {
   border-top: 0;
 }
 .single-post .mega-container {
   padding-top: 0;
 }
-
 /* --- Blog Posts --- */
 .single-blog .mega-container-1 {
   display: none;
 }
-
 /* --- Featured Videos --- */
 .featured-writers .featured-writer {
   float: left;
@@ -2254,7 +2231,13 @@ h4.page-description {
 .single-featured-video #colophon.site-footer {
   margin-top: 1rem;
 }
-
+/* --- Widgets --- */
+.widget-area ul {
+  padding-left: 2.5%;
+}
+.widget {
+  margin: 10% auto;
+}
 /* --- Featured Writer Sorting Widget --- */
 #secondary .widget_sortwidget ul li::before {
   content: none;
@@ -2284,7 +2267,6 @@ h4.page-description {
   color: #2985d0;
   font-style: italic;
 }
-
 /* --- Press Releases --- */
 .page-template-page-press-releases .press-release h4 a {
   color: #333333;
@@ -2329,7 +2311,6 @@ h4.page-description {
 .single-press-releases .mega-container {
   padding-top: 0;
 }
-
 /* --- Contact --- */
 #contact-form {
   text-align: center;
@@ -2384,7 +2365,6 @@ h4.page-description {
   margin: 0;
   padding: 1.5rem;
 }
-
 /* --- Comments --- */
 #respond .comment-form-comment label {
   width: 100%;
@@ -2427,12 +2407,10 @@ h4.page-description {
   color: #525252 !important;
   line-height: 165%;
 }
-
 /* --- Footer --- */
 #colophon.site-footer {
   padding: 3.5% 0;
 }
-
 /* --- Response --- */
 @media screen and (max-width: 991px) {
   #masthead.header-medium .top-search {
@@ -2577,15 +2555,14 @@ h4.page-description {
     width: 80%;
   }
 }
-
 /* --- Fonts --- */
 @font-face {
   font-family: "Nexa Bold";
-  src: url('assets/fonts/Nexa-Bold.eot');
-  src: url('assets/fonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Nexa-Bold.woff2') format('woff2'), url('assets/fonts/Nexa-Bold.woff') format('woff'), url('assets/fonts/Nexa-Bold.ttf') format('truetype'), url('assets/fonts/Nexa-Bold.svg#nexa_boldregular') format('svg');
+  src: url('../fonts/Nexa-Bold.eot');
+  src: url('../fonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Nexa-Bold.woff2') format('woff2'), url('../fonts/Nexa-Bold.woff') format('woff'), url('../fonts/Nexa-Bold.ttf') format('truetype'), url('../fonts/Nexa-Bold.svg#nexa_boldregular') format('svg');
 }
 @font-face {
   font-family: "Fira Sans";
-  src: url('assets/fonts/FiraSans-Regular.eot');
-  src: url('assets/fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), url('assets/fonts/FiraSans-Regular.woff2') format('woff2'), url('assets/fonts/FiraSans-Regular.woff') format('woff'), url('assets/fonts/FiraSans-Regular.ttf') format('truetype'), url('assets/fonts/FiraSans-Regular.svg#nexa_boldregular') format('svg');
+  src: url('../fonts/FiraSans-Regular.eot');
+  src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/FiraSans-Regular.woff2') format('woff2'), url('../fonts/FiraSans-Regular.woff') format('woff'), url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.svg#nexa_boldregular') format('svg');
 }

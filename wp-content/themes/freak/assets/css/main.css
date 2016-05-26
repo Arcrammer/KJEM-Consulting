@@ -799,7 +799,7 @@ a:hover {
 }
 /* section titles */
 .section-title {
-  font-weight: normal;
+  font-weight: lighter;
   color: #777;
   font-size: 18px;
   margin-bottom: 20px;
@@ -1725,10 +1725,6 @@ aside:nth-child(odd) {
   border-bottom: solid 1px #e1e1e1;
   display: inline-block;
   padding-bottom: 10px;
-}
-/* Disable Repeated Featured Image on Every page */
-.single-paged #primary-mono #featured-image {
-  display: none;
 }
 /* --------------- comments -------------- */
 #respond h3#reply-title {

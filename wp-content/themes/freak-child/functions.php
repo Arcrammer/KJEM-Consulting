@@ -1,11 +1,15 @@
 <?php
 
 function theme_enqueue_styles () {
+  // Actually 'assets' not 'css' as one would anticipate
+  // WordPress being annoying >_____>
+  $assetsFolder = get_stylesheet_directory_uri();
+
   wp_dequeue_style('freak-main-theme-style');
   wp_deregister_style('freak-main-theme-style');
 
-  wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
-  wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', ['parent-style']);
+  wp_enqueue_style('child-style', $assetsFolder.'/style.css', ['parent-style']);
+  wp_enqueue_style('freak-main-theme-style', $assetsFolder.'/assets/css/main.css');
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 20);
 

@@ -12,23 +12,24 @@ gulp.task('default', () => {
   browserSync.init({
     proxy: 'kjemconsulting.dev',
     files: [
-      './wp-content/themes/freak/assets/css/*',
-      './wp-content/themes/freak/assets/fonts/*',
-      './wp-content/themes/freak/assets/icons/*',
-      './wp-content/themes/freak/assets/images/*',
-      './wp-content/themes/freak/assets/scripts/*',
-      './wp-content/themes/freak/framework/layout/*.php',
-      './wp-content/themes/freak/framework/widgets/*.php',
-      './wp-content/themes/freak/inc/*.php',
-      './wp-content/themes/freak/*.php',
-      './wp-content/themes/freak/js/*'
+      './wp-content/themes/freak-child/assets/css/*',
+      './wp-content/themes/freak-child/assets/fonts/*',
+      './wp-content/themes/freak-child/assets/icons/*',
+      './wp-content/themes/freak-child/assets/images/*',
+      './wp-content/themes/freak-child/assets/scripts/*',
+      './wp-content/themes/freak-child/framework/layout/*.php',
+      './wp-content/themes/freak-child/framework/widgets/*.php',
+      './wp-content/themes/freak-child/inc/*.php',
+      './wp-content/themes/freak-child/*.php',
+      './wp-content/themes/freak-child/*.css',
+      './wp-content/themes/freak-child/js/*'
     ],
     open: true,
     browser: "Google Chrome"
   });
 });
 
-gulp.task('sync', () => {
+gulp.task('sync', (done) => {
   // Duplicate the production database at ialexander.io to
   // the local computer in the 'KJEM-Development' database
   var dump_filename = "Production-dump.sql";
@@ -46,10 +47,20 @@ gulp.task('sync', () => {
     // Import the dump to MySQL on the development server
     exec(`mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development < ${dump_filename}`, () => {
       // Change the .beta TLD's to .dev in 'wp_posts'
-      exec('mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD -e "UPDATE wp_posts SET guid=replace(guid, \'.beta\', \'.dev\')" KJEM-Development');
+      exec('mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD -e "UPDATE wp_posts SET guid=replace(guid, \'.beta\', \'.dev\')" KJEM-Development', () => {
+        exec(`rm ${dump_filename}`, () => {
+          console.log('Production database was successfully imported.');
+          done();
+          process.exit();
+        });
+      });
     });
-    exec(`rm ${dump_filename}`);
+  });
+});
 
-    console.log('Production database was successfully imported.');
+gulp.task('assets', (done) => {
+  exec('scp -r kjem:~/public_html/wp-content/uploads ./wp-content', (err) => {
+    if (err) throw err;
+    done();
   });
 })

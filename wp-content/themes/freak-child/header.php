@@ -9,13 +9,13 @@ session_start();
 <html <?php language_attributes(); ?>>
   <head>
     <!-- Metadata -->
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
     <!-- Links -->
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
     <!-- Everything Else -->
     <?php wp_head(); ?>
@@ -26,7 +26,7 @@ session_start();
       <p>Come view <a href="http://www.internships.com/search/posts?Keywords=&Location=&Radius=Hundred&Company=KJEM+Consulting&ListingType=None&Sort=MostRecent&FilterBy=&Page=1" target="_blank">our internships at  internships.com</a> &raquo;</p>
     </section>
     <nav id="mobile-static-menu">
-      <?php wp_nav_menu( array( 'theme_location' => 'static' ) ); ?>
+      <?php wp_nav_menu( array('theme_location' => 'static') ); ?>
     </nav>
     <?php if ( !get_theme_mod('freak_disable_static_bar_mobile') ) : ?>
     <div class="mobile-toggle-bar">
@@ -34,7 +34,7 @@ session_start();
     </div> <!-- .mobile-toggle-bar -->
     <?php endif; ?>
     <div id="page" class="hfeed site">
-    <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'freak' ); ?></a>
+    <a class="skip-link screen-reader-text" href="#content"><?php _e('Skip to content', 'freak'); ?></a>
     <div id="jumbosearch">
       <span class="fa fa-remove closeicon"></span>
       <div class="form">
@@ -47,12 +47,12 @@ session_start();
           <div class="site-branding col-md-12">
             <?php if ( get_theme_mod('freak_logo') != "" ) : ?>
             <div id="site-logo">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_theme_mod('freak_logo') ); ?>"></a>
+              <a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo esc_url( get_theme_mod('freak_logo') ); ?>"></a>
             </div>
             <?php endif; ?>
             <div id="text-title-desc">
-              <h1 class="site-title title-font"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-              <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+              <h1 class="site-title title-font"><a href="<?php echo esc_url( home_url('/') ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+              <h2 class="site-description"><?php bloginfo('description'); ?></h2>
             </div>
           </div>
           <div class="social-icons col-md-12">
@@ -68,7 +68,7 @@ session_start();
         <div id="top-bar">
           <div class="container">
             <nav id="top-menu">
-              <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+              <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
             </nav>
           </div>
         </div>

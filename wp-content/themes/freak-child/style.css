@@ -2133,6 +2133,12 @@ h4.page-description {
   padding-top: 0;
 }
 
+/* --- Single Posts --- */
+.single .mega-container-1 {
+  height: 0;
+  padding: 2px;
+}
+
 /* --- Blog Posts --- */
 .single-blog .mega-container-1 {
   display: none;
@@ -2376,7 +2382,6 @@ h4.page-description {
 .intern section:hover {
   background-color: whitesmoke;
   border-radius: 0.35rem;
-  color: #333333;
   opacity: 1;
 }
 
@@ -2397,7 +2402,12 @@ h4.page-description {
   transform: scale(0.925, 0.95);
 }
 
-.intern section:active h4, .intern section:active p {
+.intern section a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.intern section:active a {
   color: black;
 }
 
@@ -2411,6 +2421,16 @@ h4.page-description {
 .intern section p {
   font-size: 1.35rem;
   line-height: 175%;
+}
+
+/* --- Intern Single Detail Pages --- */
+.single-intern_biography .attachment-full {
+  border: 0.35rem solid #F7F7F7;
+  border-radius: 0.75rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  width: 35%;
 }
 
 /* --- Contact --- */

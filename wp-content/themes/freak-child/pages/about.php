@@ -36,8 +36,10 @@ get_header();
           ?>
             <div class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
               <section>
-                <h4><?= $biography->post_title ?></h4>
-                <p><?= $biography->post_excerpt ?></p>
+                <a href="<?= $biography->guid ?>">
+                  <h4><?= $biography->post_title ?></h4>
+                  <p><?= $biography->post_excerpt ?></p>
+                </a>
               </section>
             </div> <!-- .intern -->
           <?php

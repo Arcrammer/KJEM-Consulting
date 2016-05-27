@@ -67,7 +67,6 @@ gulp.task('db:pull', (done) => {
         exec(`rm ${dump_filename}`, () => {
           console.log('Production database was successfully imported.');
           done();
-          process.exit();
         });
       });
     });
@@ -86,19 +85,15 @@ gulp.task('db:push', (done) => {
 
   // Get a dump of the development database
   exec(`mysqldump -u alexander -h localhost --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development > ${dump_filename}`, (err, stdout, stderr) => {
-
-    // Upload the dump to the production server
-    console.log('Uploading the development database to the server...');
-    exec(`scp -r ${dump_filename} kjem:~/${dump_filename}`, (err) => {
-
     // Import the dump to MySQL on the production server
-    exec(`mysql -u kjemcon1_wp_v3n9 --password=$KJEM_PRODUCTION_PASSWORD kjemcon1_wp_v3n9 < ${dump_filename}`, () => {
-        done();
-        process.exit();
-      });
+    console.log("Uploading the development database");
+    exec(`mysql -u kjemcon1_wp_v3n9 --password=$KJEM_PRODUCTION_PASSWORD -h kjemconsulting.com kjemcon1_wp_v3n9 < ${dump_filename}`, (err) => {
+      if (err) throw err;
+      console.log("All done");
+      done();
     });
   });
-})
+});
 
 gulp.task('assets', (done) => {
   exec('scp -r kjem:~/public_html/wp-content/uploads ./wp-content', (err) => {

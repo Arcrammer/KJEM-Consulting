@@ -1,7 +1,9 @@
 "use strict";
 
 let gulp = require('gulp');
+let gutil = require('gulp-util');
 let exec = require('child_process').exec;
+let spawn = require('child_process').spawn;
 let compass = require('gulp-compass');
 let browserSync = require('browser-sync').create();
 
@@ -96,8 +98,15 @@ gulp.task('db:push', (done) => {
 });
 
 gulp.task('assets', (done) => {
-  exec('scp -r kjem:~/public_html/wp-content/uploads ./wp-content', (err) => {
-    if (err) throw err;
-    done();
+  var scp = spawn('scp', [
+    '-r',
+    'kjem:~/public_html/wp-content/uploads',
+    './wp-content'
+  ], {
+    stdio: 'inherit'
   });
-})
+  scp.on('close', () => {
+    done();
+    gutil.log(gutil.colors.green('All done. Now you have the same assets as the server'));
+  });
+});

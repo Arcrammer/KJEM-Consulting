@@ -13,34 +13,40 @@
  Text Domain:  freak-child
 */
 /* Globals */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000316}}
 main {
   overflow: auto;
-  background: orangered;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000320}}
 .body-font {
   font-family: "Roboto Slab", sans-serif;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000324}}
 .title-font {
   font-family: "Bitter", sans-serif;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000328}}
 body {
   font-family: "Roboto Slab", sans-serif;
   background: #fff;
   word-wrap: break-word;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000334}}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: normal;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000338}}
 img {
   height: auto;
   width: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000343}}
 .mega-container {
   background: white;
   max-width: 1100px;
@@ -49,24 +55,29 @@ img {
   overflow: auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000351}}
 .container {
   max-width: 1100px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000355}}
 a {
   color: #1f649c;
   cursor: pointer;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000359}}
 a:hover {
   text-decoration: none;
   color: #1f649c;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000365}}
 .container {
   margin: auto;
 }
 
 /* ---------- Header ------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000371}}
 #top-bar {
   background: rgba(221, 221, 221, 0.7);
   position: absolute;
@@ -76,38 +87,46 @@ a:hover {
   border-bottom: solid 6px #ddd;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000380}}
 #masthead {
   text-align: center;
   position: relative;
   background-attachment: fixed;
   margin-bottom: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000386}}
 #masthead .layer {
   width: 100%;
   min-height: 600px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000391}}
 #masthead #text-title-desc {
   clear: none;
   float: none;
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\0000397}}
 #masthead h1.site-title {
   font-size: 2.75rem;
   font-weight: 100;
   margin-top: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003102}}
 #masthead h1.site-title a {
   color: white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003107}}
 #masthead h2.site-description {
   font-weight: 300;
   font-size: 15px;
   margin-top: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003113}}
 #masthead .social-icons {
   text-align: center;
   margin-bottom: 40px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003117}}
 #masthead .social-icons a {
   background: none;
   color: #5e5e5e;
@@ -119,6 +138,7 @@ a:hover {
   border-width: 1px;
   font-size: 22px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003128}}
 #masthead .social-icons a img {
   width: 38px;
   transition: 0.8s all ease;
@@ -127,14 +147,17 @@ a:hover {
   -ms-transition: 0.8s all ease;
   -o-transition: 0.8s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003137}}
 #masthead .social-icons a i {
   font-size: 18px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003141}}
 #masthead .social-icons a:before {
   border-radius: 0%;
   border-width: 1px;
   background: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003147}}
 #masthead .social-icons a:hover img {
   transform: rotate(360deg) scale(1.15);
   -webkit-transform: rotate(360deg) scale(1.15);
@@ -142,12 +165,15 @@ a:hover {
   -ms-transform: rotate(360deg) scale(1.15);
   -o-transform: rotate(360deg) scale(1.15);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003157}}
 #masthead .top-search {
   padding-bottom: 70px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003161}}
 #masthead .top-search input[type=submit] {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003165}}
 #masthead .top-search input[type=search] {
   background: rgba(0, 0, 0, 0.3);
   border: solid 4px rgba(0, 0, 0, 0.35);
@@ -158,20 +184,24 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003178}}
   #masthead {
     background-attachment: scroll;
   }
 }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003184}}
   #masthead #text-title-desc {
     float: none;
   }
 }
 @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003190}}
   #masthead .social-icons a {
     float: none;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003195}}
 .site-branding {
   padding-top: 20vh;
   overflow: hidden;
@@ -179,10 +209,12 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003202}}
   .site-branding {
     text-align: center;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003207}}
 #site-logo {
   display: inline-block;
   float: none;
@@ -190,57 +222,73 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003214}}
   #site-logo {
     float: none;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003221}}
 #masthead.header-medium h1.site-title {
   font-size: 66px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003225}}
 #masthead.header-medium .site-branding {
   padding-top: 90px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003229}}
 #masthead.header-medium .layer {
   min-height: 350px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003233}}
 #masthead.header-medium .top-search {
   padding-bottom: 120px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003238}}
 #masthead.header-medium.search-disabled .social-icons {
   margin-bottom: 140px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003242}}
 #masthead.header-medium.search-disabled .site-branding {
   padding-top: 80px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003249}}
 #masthead.header-small h1.site-title {
   font-size: 66px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003253}}
 #masthead.header-small .site-branding {
   padding-top: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003257}}
 #masthead.header-small .layer {
   min-height: 250px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003261}}
 #masthead.header-small .top-search {
   padding-bottom: 70px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003265}}
 #masthead.header-small .social-icons {
   margin-bottom: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003270}}
 #masthead.header-large.search-disabled .layer {
   min-height: 600px;
 }
 
 @media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003276}}
   #masthead.header-medium .layer {
     padding-bottom: 50px;
   }
 }
 @media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003282}}
   #masthead.header-small .layer {
     padding-bottom: 100px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003287}}
 #jumbosearch {
   position: fixed;
   top: 0;
@@ -252,13 +300,16 @@ a:hover {
   text-align: center;
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003298}}
 #jumbosearch .form {
   margin-top: 20%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003301}}
 #jumbosearch .form label {
   width: 80%;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003307}}
 #jumbosearch .form input[type=search] {
   background: none;
   outline: none;
@@ -272,10 +323,12 @@ a:hover {
   text-align: center;
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003321}}
 #jumbosearch .form input[type=submit] {
   display: none;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003328}}
 #jumbosearch .closeicon {
   position: absolute;
   right: 30px;
@@ -287,16 +340,19 @@ a:hover {
 }
 
 /* -------- Nav Menu ---------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003341}}
 #site-navigation {
   float: right;
   clear: none;
   margin-top: 55px;
   margin-bottom: 45px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003347}}
 #site-navigation ul {
   float: right;
   /* for the Currently active page */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003353}}
 #site-navigation ul li a {
   padding: 10px;
   color: #000;
@@ -311,12 +367,15 @@ a:hover {
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003368}}
 #site-navigation ul li:hover a {
   background: rgba(255, 255, 255, 0.6);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003373}}
 #site-navigation ul li ul li .menu-desc {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003377}}
 #site-navigation ul li ul.sub-menu, #site-navigation ul li ul.children {
   background: rgba(255, 255, 255, 0.6);
   top: 40px;
@@ -335,6 +394,7 @@ a:hover {
   -webkit-transform: perspective(350px) rotateX(-90deg);
   -moz-transform: perspective(350px) rotateX(-90deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003396}}
 #site-navigation ul li ul.sub-menu li ul, #site-navigation ul li ul.children li ul {
   transform-origin: left;
   -webkit-transform-origin: left;
@@ -350,9 +410,11 @@ a:hover {
   transform: rotateY(65deg) !important;
   -moz-transform: rotateY(65deg) !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003412}}
 #site-navigation ul li ul.sub-menu li ul li ul, #site-navigation ul li ul.children li ul li ul {
   display: none !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003416}}
 #site-navigation ul li ul.sub-menu li:hover, #site-navigation ul li ul.children li:hover {
   transition: 0.2s all ease;
   -webkit-transition: 0.2s all ease;
@@ -361,12 +423,14 @@ a:hover {
   -o-transition: 0.2s all ease;
   /* -webkit-transition: 0.2s all ease !important; */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003426}}
 #site-navigation ul li ul.sub-menu li:hover ul, #site-navigation ul li ul.children li:hover ul {
   opacity: 1;
   transform: rotateY(5deg) !important;
   -webkit-transform: rotateY(5deg) !important;
   -moz-transform: rotateY(5deg) !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003433}}
 #site-navigation ul li ul.sub-menu a, #site-navigation ul li ul.children a {
   padding: 8px 15px;
   font-weight: normal;
@@ -374,10 +438,12 @@ a:hover {
   background: none;
   transition: 0.4s background ease, 0.6s padding ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003441}}
 #site-navigation ul li ul.sub-menu a:hover, #site-navigation ul li ul.children a:hover {
   background: rgba(255, 255, 255, 0.6);
   padding-left: 19px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003447}}
 #site-navigation ul li:hover {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -386,17 +452,21 @@ a:hover {
   -o-transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease !important;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003456}}
 #site-navigation ul li:hover ul.sub-menu, #site-navigation ul li:hover ul.children {
   display: block;
   transform: rotateX(0deg);
   -webkit-transform: rotateX(0deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003465}}
 #site-navigation ul .current_page_item > a, #site-navigation ul .current-menu-item > a, #site-navigation ul .current_page_ancestor > a {
   color: black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003470}}
 #site-navigation .fa {
   padding: 0 5px 0 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003474}}
 #site-navigation .menu-desc {
   font-size: 12px;
   font-weight: 300;
@@ -406,67 +476,82 @@ a:hover {
   font-style: italic;
   text-transform: lowercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003484}}
 #site-navigation .current_page_item > a, #site-navigation .current-menu-item > a, #site-navigation .current_page_ancestor > a {
   color: #1f649c;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003489}}
 .slicknav_menu {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003494}}
   .slicknav_menu {
     display: block;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003498}}
   #site-navigation ul.menu {
     display: none;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003503}}
   .slicknav_nav .menu-desc {
     display: none !important;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003507}}
   .slicknav_nav a {
     color: #777;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003510}}
   .slicknav_nav a .fa {
     margin-right: 5px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003515}}
   .slicknav_nav .slicknav_arrow {
     display: none;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003520}}
   .slicknav_menu {
     background: #eee;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003524}}
   .slicknav_btn {
     background: #ddd;
     border: solid 1px #ccc;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003529}}
   .slicknav_menutxt {
     color: #777 !important;
     text-shadow: none !important;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003534}}
   .slicknav_icon-bar {
     background-color: #777 !important;
   }
 }
 /* TOP MENU */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003541}}
 #top-menu, #static-bar #static-menu {
   float: none;
   position: relative;
 }
 
 @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003547}}
   #top-menu, #static-bar #static-menu {
     float: none;
     text-align: center;
     padding: 15px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003554}}
 #top-menu ul, #static-bar #static-menu ul {
   list-style: none;
   margin-bottom: 0;
@@ -480,6 +565,7 @@ a:hover {
   -o-transition: 0.4s all ease;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003567}}
 #top-menu ul ul, #static-bar #static-menu ul ul {
   display: none;
   position: absolute;
@@ -489,20 +575,24 @@ a:hover {
   text-align: left;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003576}}
 #top-menu ul li, #static-bar #static-menu ul li {
   display: inline;
   margin-left: -3px;
   position: relative;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003582}}
 #top-menu ul li span, #static-bar #static-menu ul li span {
   padding: 16px 5px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003586}}
 #top-menu ul li:hover, #static-bar #static-menu ul li:hover {
   /* DROPDOWN */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003590}}
 #top-menu ul li:hover > ul, #static-bar #static-menu ul li:hover > ul {
   display: block;
   width: 200px;
@@ -512,10 +602,12 @@ a:hover {
   padding: 10px 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003599}}
 #top-menu ul li:hover > ul li, #static-bar #static-menu ul li:hover > ul li {
   display: block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003603}}
 #top-menu ul li:hover > ul li a, #static-bar #static-menu ul li:hover > ul li a {
   padding: 2px;
   font-size: 14px;
@@ -523,11 +615,13 @@ a:hover {
   color: #848484;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003610}}
 #top-menu ul li:hover > ul li:hover ul, #static-bar #static-menu ul li:hover > ul li:hover ul {
   top: 0;
   left: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003615}}
 #top-menu ul li a, #static-bar #static-menu ul li a {
   padding: 15px 10px;
   display: inline-block;
@@ -537,20 +631,24 @@ a:hover {
   font-family: "Bitter", sans-serif;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003624}}
 #top-menu ul li a .hvr-shutter-in-vertical, #static-bar #static-menu ul li a .hvr-shutter-in-vertical {
   background: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003628}}
 #top-menu ul li a:hover, #static-bar #static-menu ul li a:hover {
   text-decoration: underline;
   color: #5e5e5e;
 }
 
 /* Static Bar which shows up after we have scrolled a little */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003635}}
 .logged-in #static-bar {
   top: 32px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003639}}
 #static-bar {
   background: rgba(247, 247, 247, 0.9);
   border-bottom: solid 3px rgba(221, 221, 221, 0.8);
@@ -560,33 +658,41 @@ a:hover {
   z-index: 1000;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003648}}
 #static-bar #static-logo {
   float: left;
   margin-right: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003652}}
 #static-bar #static-logo h1 {
   font-size: 2.75rem;
   margin: 0;
   padding: 5px 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003657}}
 #static-bar #static-logo h1 a {
   color: #444444;
   line-height: 52.5px;
   text-shadow: #777 1px 0px 1px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003664}}
 #static-bar #static-logo img {
   max-height: 50px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003669}}
 #static-bar #static-menu {
   float: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003673}}
 #static-bar #static-menu ul li a {
   padding: 14px 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003677}}
 #static-bar #static-menu ul li:hover > ul {
   background: rgba(221, 221, 221, 0.98);
   top: 35px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003684}}
 #static-bar #searchicon {
   float: right;
   padding: 5px 12px;
@@ -596,31 +702,37 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003694}}
   #static-bar {
     display: none !important;
   }
 }
 /* top slider */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003701}}
 #slider-bg {
   background-size: cover;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003705}}
 .slider-wrapper {
   margin-top: 60px;
   margin-bottom: -40px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003709}}
 .slider-wrapper .nivoSlider {
   box-shadow: none;
   background: none;
   border: solid 8px rgba(247, 247, 247, 0.9);
   outline: solid 1px #eaeaea;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003716}}
 .slider-wrapper .nivo-controlNav {
   position: relative;
   bottom: 55px;
   margin-bottom: -20px;
   z-index: 9;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003722}}
 .slider-wrapper .nivo-controlNav a {
   background-image: none;
   width: 22px;
@@ -628,12 +740,15 @@ a:hover {
   margin: 0 5px;
   background: #aaa;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003729}}
 .slider-wrapper .nivo-controlNav a:hover {
   background: rgba(31, 100, 156, 0.5);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003734}}
 .slider-wrapper .nivo-controlNav .active {
   background: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003739}}
 .slider-wrapper .nivo-caption {
   bottom: 60px;
   left: 65px;
@@ -648,6 +763,7 @@ a:hover {
   -o-transition: 0.4s all ease;
   transform-origin: left bottom;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003753}}
 .slider-wrapper .nivo-caption:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -657,11 +773,13 @@ a:hover {
   left: 65px;
   bottom: 60px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003763}}
 .slider-wrapper .nivo-caption a {
   text-decoration: none;
   border-bottom: none;
   color: white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003769}}
 .slider-wrapper .nivo-caption .slide-title {
   display: inline-block;
   font-size: 32px;
@@ -673,6 +791,7 @@ a:hover {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003781}}
 .slider-wrapper .nivo-caption .slide-desc span {
   /* border-left: solid 4px black; */
   display: inline-block;
@@ -684,6 +803,7 @@ a:hover {
 }
 
 @media screen and (max-width: 660px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003794}}
   .slider-wrapper .nivo-caption {
     transform: scale(0.6);
     -webkit-transform: scale(0.6);
@@ -694,6 +814,7 @@ a:hover {
     left: 55px;
     bottom: 30px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003804}}
   .slider-wrapper .nivo-caption:hover {
     transform: scale(0.65);
     -webkit-transform: scale(0.65);
@@ -705,25 +826,30 @@ a:hover {
   }
 }
 /* Flex Images */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003818}}
 #flex-bg {
   background-size: cover;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003822}}
 .flex-images {
   border: none;
   padding: 15px;
   margin-bottom: 30px;
   margin-top: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003828}}
 .flex-images .section-title:after {
   width: 5%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003832}}
 .flex-images .item {
   margin: 6px;
   border: none;
   position: relative;
   border: solid 5px #eee;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003838}}
 .flex-images .item .viewtext {
   position: absolute;
   top: 35%;
@@ -733,6 +859,7 @@ a:hover {
   display: none;
   background: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003848}}
 .flex-images .item img {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -743,6 +870,7 @@ a:hover {
   -webkit-filter: brightness(0.8);
   filter: brightness(0.8);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003859}}
 .flex-images .item:after {
   content: "";
   position: absolute;
@@ -757,16 +885,20 @@ a:hover {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003875}}
 .flex-images .item:hover:after {
   height: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003879}}
 .flex-images .item:hover img {
   filter: brightness(0.5);
   -webkit-filter: brightness(0.5);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003884}}
 .flex-images .item:hover .flex-caption {
   padding-left: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003888}}
 .flex-images .item:hover .viewtext {
   display: block;
   color: #eee;
@@ -782,6 +914,7 @@ a:hover {
   -ms-transition: 0.4s all ease-in;
   -o-transition: 0.4s all ease-in;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003903}}
 .flex-images .item:hover .viewtext:after {
   content: "";
   position: absolute;
@@ -797,6 +930,7 @@ a:hover {
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003919}}
 .flex-images .item:hover .viewtext:before {
   content: "";
   position: absolute;
@@ -812,9 +946,11 @@ a:hover {
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003936}}
 .flex-images .item:hover .viewtext:hover:before, .flex-images .item:hover .viewtext:hover:after {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003944}}
 .flex-images .flex-caption {
   /* background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%); */
   position: absolute;
@@ -835,18 +971,21 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003965}}
   .flex-images {
     margin-top: -10px;
     margin-bottom: 10px;
   }
 }
 /* section titles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003973}}
 .section-title {
   font-weight: lighter;
   color: #777;
   font-size: 18px;
   margin-bottom: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003979}}
 .section-title:after {
   content: "";
   display: block;
@@ -857,23 +996,28 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003990}}
   .section-title {
     margin-top: 20px;
   }
 }
 /* Second Featured Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\00003997}}
 .featured-2 {
   margin: 20px 0;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031001}}
 .featured-2 .popular-articles {
   overflow: auto;
   overflow-x: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031005}}
 .featured-2 .popular-articles .imgcontainer {
   padding: 6px;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031010}}
 .featured-2 .popular-articles .popimage {
   position: relative;
   transition: 0.4s all ease;
@@ -882,6 +1026,7 @@ a:hover {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031018}}
 .featured-2 .popular-articles .popimage img {
   display: block;
   transition: 0.4s all ease;
@@ -890,6 +1035,7 @@ a:hover {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031028}}
 .featured-2 .popular-articles .popimage:hover img {
   transform: translateX(0px);
   -webkit-transform: translateX(0px);
@@ -898,6 +1044,7 @@ a:hover {
   -o-transform: translateX(0px);
   opacity: 1;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031037}}
 .featured-2 .popular-articles .popimage:hover .titledesc {
   display: block;
   transform: translateX(0px);
@@ -908,6 +1055,7 @@ a:hover {
   /* left: 0; */
   opacity: 1;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031051}}
 .featured-2 .popular-articles .titledesc {
   display: block;
   position: absolute;
@@ -928,12 +1076,14 @@ a:hover {
   height: 100%;
   opacity: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031071}}
 .featured-2 .popular-articles .titledesc h2 {
   font-size: 16px;
   text-align: center;
   color: white;
   font-weight: bold;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031078}}
 .featured-2 .popular-articles .titledesc a {
   color: #eee;
   background: #1f649c;
@@ -944,6 +1094,7 @@ a:hover {
   margin: auto;
   margin-top: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031091}}
 .featured-2 .popular-articles .imgcontainer:nth-child(odd) .titledesc {
   transform: translateX(50px);
   -webkit-transform: translateX(50px);
@@ -951,6 +1102,7 @@ a:hover {
   -ms-transform: translateX(50px);
   -o-transform: translateX(50px);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031100}}
 .featured-2 .popular-articles .imgcontainer:nth-child(odd) .popimage:hover img, .featured-2 .popular-articles .imgcontainer:nth-child(odd) .popimage:hover .titledesc {
   transform: translateX(0px);
   -webkit-transform: translateX(0px);
@@ -960,15 +1112,18 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031113}}
   .featured-2 .popular-articles .popimage img {
     width: 100%;
   }
 }
 /* sb slider */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031120}}
 .latest-hap {
   position: relative;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031124}}
 .sb-slider .sb-description {
   pointer-events: none;
   z-index: 88;
@@ -976,14 +1131,17 @@ a:hover {
   border-left-color: #1f649c;
   padding: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031131}}
 .sb-slider .sb-description h3 {
   margin: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031136}}
 .nav-arrows {
   position: absolute;
   top: 50%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031140}}
 .nav-arrows a {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.2s all ease;
@@ -993,64 +1151,78 @@ a:hover {
   -o-transition: 0.2s all ease;
   box-shadow: 0px 0px 1px #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031149}}
 .nav-arrows a:hover {
   background-color: rgba(31, 100, 156, 0.5);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031153}}
 .nav-arrows a:first-child {
   right: -535px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031157}}
 .nav-arrows a:nth-child(2) {
   right: -47px;
 }
 
 @media screen and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031164}}
   .nav-arrows a:first-child {
     right: -435px;
   }
 }
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031170}}
   .nav-arrows a:first-child {
     right: -675px;
   }
 }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031176}}
   .nav-arrows a:first-child {
     display: none;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031182}}
   .nav-arrows a:nth-child(2) {
     right: -57px;
   }
 }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031188}}
   .nav-arrows a:nth-child(2) {
     display: none;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031193}}
 #content {
   margin-top: 30px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031197}}
 .grid-row {
   margin: 0;
 }
 
 /* Grid */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031203}}
 .grid {
   margin: 10px 0;
   padding-left: 0;
   padding-bottom: 17px;
   border-bottom: solid 1px #eee;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031209}}
 .grid:last-of-type {
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031213}}
 .grid .featured-thumb {
   border-top: #1f649c solid 3px;
   overflow: hidden;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031218}}
 .grid .featured-thumb img {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -1064,6 +1236,7 @@ a:hover {
   -o-transform: scale(1.01);
   -webkit-transform-style: preserve-3d;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031232}}
 .grid .featured-thumb:hover img {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -1078,99 +1251,120 @@ a:hover {
   -webkit-filter: brightness(0.9);
   filter: brightness(0.9);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031249}}
 .grid .out-thumb h1 {
   margin: 5px 0;
   margin-top: 1px;
   font-weight: lighter;
   font-size: 19px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031255}}
 .grid .out-thumb h1 a {
   color: #373737;
   padding-bottom: 2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031259}}
 .grid .out-thumb h1 a:before {
   height: 2px;
   background: #373737;
   width: 96%;
   left: 2%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031268}}
 .grid .out-thumb .postedon {
   font-size: 12px;
   color: #aaa;
   font-weight: lighter;
   margin-bottom: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031274}}
 .grid .out-thumb .postedon a {
   color: #999;
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031280}}
 .grid .out-thumb .entry-excerpt {
   color: #777;
   line-height: 1.6em;
   font-weight: 400;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031287}}
 .grid .readmore {
   display: block;
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031292}}
 .grid .hvr-underline-from-center:before {
   height: 1px;
   background: #1f649c;
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031299}}
   .grid {
     border-bottom: none;
   }
 }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031305}}
   .grid .featured-thumb img {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031311}}
   .grid .out-thumb {
     padding: 10px 3px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031316}}
 .grid_2_column {
   padding: 0;
   border-bottom: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031320}}
 .grid_2_column .out-thumb {
   padding: 12px 0;
 }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031326}}
   .grid_2_column {
     padding-right: 0px;
   }
 }
 @media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031333}}
   .grid_2_column:nth-child(even) {
     padding-left: 10px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031337}}
   .grid_2_column:nth-child(odd) {
     padding-right: 10px;
     clear: left;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031344}}
 .grid_3_column {
   padding: 0 10px;
 }
 
 @media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031350}}
   .grid_3_column:nth-child(odd) {
     padding-right: 10px;
     clear: none;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031355}}
   .grid_3_column:nth-child(3n+1) {
     clear: left;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031362}}
 .aldehyde .featured-thumb {
   border-top: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031365}}
 .aldehyde .featured-thumb img {
   width: 100%;
   transform: rotate(0deg);
@@ -1184,6 +1378,7 @@ a:hover {
   -ms-transition: 3s all ease;
   -o-transition: 3s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031378}}
 .aldehyde .featured-thumb img:hover {
   transition: 3s all ease;
   -webkit-transition: 3s all ease;
@@ -1196,12 +1391,15 @@ a:hover {
   -ms-transform: rotate(1deg);
   -o-transform: rotate(1deg);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031393}}
 .aldehyde .out-thumb {
   padding: 15px 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031396}}
 .aldehyde .out-thumb h1.entry-title {
   font-size: 24px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031399}}
 .aldehyde .out-thumb h1.entry-title a {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -1209,20 +1407,25 @@ a:hover {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031406}}
 .aldehyde .out-thumb h1.entry-title a:before {
   content: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031410}}
 .aldehyde .out-thumb h1.entry-title a:hover {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031416}}
 .aldehyde .out-thumb .postedon a {
   color: #777;
   text-decoration: none;
   font-size: 13px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031421}}
 .aldehyde .out-thumb .postedon a:hover {
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031426}}
 .aldehyde .out-thumb .fa-calendar, .aldehyde .out-thumb .fa-user {
   border: solid 1px #1f649c;
   border-radius: 50%;
@@ -1230,9 +1433,11 @@ a:hover {
   margin-right: 7px;
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031434}}
 .aldehyde .out-thumb .byline {
   float: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031438}}
 .aldehyde .out-thumb .readmore {
   margin-top: 5px;
   text-transform: uppercase;
@@ -1240,15 +1445,18 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031447}}
   .freak {
     padding-right: 0px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031452}}
 .freak .featured-thumb {
   border: none;
   border-right: solid 4px #1f649c;
   padding-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031457}}
 .freak .featured-thumb .postedon {
   position: absolute;
   right: 0;
@@ -1256,6 +1464,7 @@ a:hover {
   text-align: right;
   font-size: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031464}}
 .freak .featured-thumb .postedon .date {
   background: #1f649c;
   padding: 8px;
@@ -1263,17 +1472,20 @@ a:hover {
   display: inline-block;
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031472}}
 .freak .featured-thumb .postedon .author {
   background: rgba(0, 0, 0, 0.8);
   padding: 8px;
   display: block;
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031478}}
 .freak .featured-thumb .postedon .author a {
   color: white;
 }
 
 /* --------------- pagination ------------ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031487}}
 .pagination {
   margin: 20px 0;
   padding-top: 25px;
@@ -1281,6 +1493,7 @@ a:hover {
   width: 100%;
   clear: both;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031494}}
 .pagination ul {
   list-style: none;
   display: inline-block;
@@ -1288,9 +1501,11 @@ a:hover {
   margin-bottom: 0;
   margin-left: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031501}}
 .pagination ul > li {
   display: inline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031504}}
 .pagination ul > li > a {
   color: #1e6198;
   transition: all 0.4s ease;
@@ -1299,13 +1514,16 @@ a:hover {
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031512}}
 .pagination ul > li > a:hover {
   color: #1f649c;
   background: #fff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031520}}
 .pagination .current {
   background: #ddd;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031525}}
 .pagination ul > li > a, .pagination ul > li > span {
   float: left;
   padding: 4px 12px;
@@ -1317,10 +1535,12 @@ a:hover {
   display: inline-block;
   color: #aaa;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031537}}
 .pagination ul > li > a:hover, .pagination ul > li > span:hover {
   background: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031543}}
 #secondary {
   /*
 aside:nth-child(odd) {
@@ -1331,9 +1551,11 @@ aside:nth-child(odd) {
   /* Some Styling for Default WordPress Widgets */
   /* Pulse Grow */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031553}}
 #secondary aside {
   padding: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031557}}
 #secondary h1.widget-title {
   font-weight: lighter;
   color: #777;
@@ -1348,11 +1570,13 @@ aside:nth-child(odd) {
   border: solid 1px #f7f7f7;
   border-bottom: solid 3px #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031572}}
 #secondary .widget {
   background: #f7f7f7;
   padding: 0;
   padding: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031577}}
 #secondary .widget a {
   color: #888;
   font-weight: normal;
@@ -1362,29 +1586,36 @@ aside:nth-child(odd) {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031586}}
 #secondary .widget a:hover {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031591}}
 #secondary .widget ul {
   font-size: 13px;
   margin-left: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031595}}
 #secondary .widget ul li {
   list-style: none;
   border-bottom: solid 1px #eee;
   padding: 10px 6px;
   box-shadow: 0 1px 0 #fff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031601}}
 #secondary .widget ul li:last-child {
   border-bottom: none;
   box-shadow: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031609}}
 #secondary .widget_search {
   margin-bottom: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031612}}
 #secondary .widget_search label {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031616}}
 #secondary .widget_search input[type=search] {
   background: white;
   border: solid 2px #ddd;
@@ -1396,9 +1627,11 @@ aside:nth-child(odd) {
   outline: none;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031629}}
 #secondary .search-submit {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031633}}
 #secondary .widget_recent_entries ul li:before, #secondary .widget_recent_comments ul li:before, #secondary .widget_categories ul li:before, #secondary .widget_pages ul li:before, #secondary .widget_archive ul li:before, #secondary .widget_meta ul li:before, #secondary .widget_nav_menu ul li:before {
   content: "\f054";
   font-family: "FontAwesome";
@@ -1407,6 +1640,7 @@ aside:nth-child(odd) {
   color: #1f649c;
   margin-right: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031642}}
 #secondary .widget_recent_entries ul li, #secondary .widget_recent_comments ul li, #secondary .widget_categories ul li, #secondary .widget_pages ul li, #secondary .widget_archive ul li, #secondary .widget_meta ul li, #secondary .widget_nav_menu ul li {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -1414,6 +1648,7 @@ aside:nth-child(odd) {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031650}}
 #secondary .widget_recent_entries ul li:hover, #secondary .widget_recent_comments ul li:hover, #secondary .widget_categories ul li:hover, #secondary .widget_pages ul li:hover, #secondary .widget_archive ul li:hover, #secondary .widget_meta ul li:hover, #secondary .widget_nav_menu ul li:hover {
   transform: translateX(2px);
   -webkit-transform: translateX(2px);
@@ -1421,6 +1656,7 @@ aside:nth-child(odd) {
   -ms-transform: translateX(2px);
   -o-transform: translateX(2px);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031658}}
 #secondary .widget_tag_cloud .tagcloud a {
   background: #1f649c;
   font-size: 14px !important;
@@ -1431,6 +1667,7 @@ aside:nth-child(odd) {
   margin-bottom: 5px;
   display: inline-block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031669}}
 #secondary .tagcloud a {
   display: inline-block;
   vertical-align: middle;
@@ -1441,6 +1678,7 @@ aside:nth-child(odd) {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031679}}
 #secondary .tagcloud a:hover, #secondary .tagcloud a:focus, #secondary .tagcloud a:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
@@ -1453,6 +1691,7 @@ aside:nth-child(odd) {
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031694}}
 #secondary .widget_freak_rp li.rp-item {
   overflow: auto;
   clear: both;
@@ -1460,12 +1699,14 @@ aside:nth-child(odd) {
   padding: 8px 0px;
   font-size: 13px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031702}}
 #secondary .widget_freak_rp .rp-thumb {
   width: 52px;
   float: left;
   display: inline-block;
   margin-right: 6px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031709}}
 #secondary .widget_freak_rp .rp-date {
   color: #919191;
   font-size: 11px;
@@ -1484,21 +1725,26 @@ aside:nth-child(odd) {
   }
 }
 /* Footer Sidebar */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031732}}
 #footer-sidebar {
   background: #f7f7f7;
   border-top: solid 3px #ddd;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031736}}
 #footer-sidebar .footer-column {
   /* Pulse Grow */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031739}}
 #footer-sidebar .footer-column h1.widget-title {
   font-weight: lighter;
   font-size: 20px;
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031745}}
 #footer-sidebar .footer-column .widget {
   color: #5e5e5e;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031748}}
 #footer-sidebar .footer-column .widget a {
   color: #777;
   font-weight: normal;
@@ -1508,30 +1754,37 @@ aside:nth-child(odd) {
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031757}}
 #footer-sidebar .footer-column .widget a:hover {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031762}}
 #footer-sidebar .footer-column .widget ul {
   margin-left: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031765}}
 #footer-sidebar .footer-column .widget ul li {
   list-style: none;
   padding: 8px;
   border-bottom: solid 1px #e5e5e5;
   box-shadow: #fff 0 1px 0 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031771}}
 #footer-sidebar .footer-column .widget ul li:last-child {
   border-bottom: none;
   box-shadow: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031776}}
 #footer-sidebar .footer-column .widget ul li ul {
   margin-left: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031780}}
 #footer-sidebar .footer-column .widget ul li li {
   margin-left: 2px;
   border-bottom: none;
   padding: 2px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031789}}
 #footer-sidebar .footer-column .widget_tag_cloud .tagcloud a {
   background: #1f649c;
   font-size: 14px !important;
@@ -1542,6 +1795,7 @@ aside:nth-child(odd) {
   margin-bottom: 5px;
   display: inline-block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031800}}
 #footer-sidebar .footer-column .tagcloud a {
   display: inline-block;
   vertical-align: middle;
@@ -1552,6 +1806,7 @@ aside:nth-child(odd) {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031810}}
 #footer-sidebar .footer-column .tagcloud a:hover, #footer-sidebar .footer-column .tagcloud a:focus, #footer-sidebar .footer-column .tagcloud a:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
@@ -1564,6 +1819,7 @@ aside:nth-child(odd) {
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031825}}
 #footer-sidebar .footer-column .widget_freak_rp li.rp-item {
   overflow: auto;
   clear: both;
@@ -1571,16 +1827,19 @@ aside:nth-child(odd) {
   padding: 8px 0px;
   font-size: 13px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031833}}
 #footer-sidebar .footer-column .widget_freak_rp .rp-thumb {
   width: 52px;
   float: left;
   display: inline-block;
   margin-right: 6px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031840}}
 #footer-sidebar .footer-column .widget_freak_rp .rp-date {
   color: #919191;
   font-size: 11px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031846}}
 #footer-sidebar .footer-column .widget_recent_entries ul li:before, #footer-sidebar .footer-column .widget_recent_comments ul li:before, #footer-sidebar .footer-column .widget_categories ul li:before, #footer-sidebar .footer-column .widget_pages ul li:before, #footer-sidebar .footer-column .widget_archive ul li:before, #footer-sidebar .footer-column .widget_meta ul li:before, #footer-sidebar .footer-column .widget_nav_menu ul li:before {
   content: "\f054";
   font-family: "FontAwesome";
@@ -1601,6 +1860,7 @@ aside:nth-child(odd) {
     transform: scale(0.95);
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031870}}
 #colophon {
   background: #363636;
   padding: 15px 10px 15px 10px;
@@ -1609,12 +1869,14 @@ aside:nth-child(odd) {
   font-size: 13px;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031878}}
 #colophon a {
   color: #777;
   text-decoration: underline;
 }
 
 /* Single Posts Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031886}}
 .freak-single-entry-header {
   color: #eee;
   position: relative;
@@ -1624,6 +1886,7 @@ aside:nth-child(odd) {
   z-index: 99;
   background: #444;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031895}}
 .freak-single-entry-header .entry-header-bg {
   position: absolute;
   left: 0;
@@ -1642,41 +1905,49 @@ aside:nth-child(odd) {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031914}}
 .freak-single-entry-header .layer {
   padding: 50px 15px 100px 15px;
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031921}}
 .freak-single-entry-header h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 300;
   text-shadow: 1px 1px 1px black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031928}}
 .freak-single-entry-header .entry-meta {
   font-size: small;
   font-weight: lighter;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031932}}
 .freak-single-entry-header .entry-meta a {
   color: white;
   font-style: italic;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031939}}
 .mega-container.content {
   position: relative;
   top: -100px;
   z-index: 999;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031944}}
 .mega-container.content .content {
   padding-top: 35px;
   border-top: solid 3px #1f649c;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031950}}
 #primary-mono {
   padding: 0 10px;
   padding-left: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031954}}
 #primary-mono h1.entry-title {
   font-weight: normal;
   color: #777;
@@ -1686,6 +1957,7 @@ aside:nth-child(odd) {
   padding-left: 0;
   margin-bottom: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031963}}
 #primary-mono h1.entry-title:after {
   content: "";
   display: block;
@@ -1694,56 +1966,69 @@ aside:nth-child(odd) {
   margin-top: 5px;
   background: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031973}}
 #primary-mono .entry-meta, #primary-mono .entry-footer {
   font-size: 12px;
   border-bottom: solid 1px #eee;
   padding-bottom: 7px;
   overflow: auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031980}}
 #primary-mono .entry-meta a, #primary-mono .entry-footer a {
   color: #777;
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031985}}
 #primary-mono .entry-meta a:hover {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031989}}
 #primary-mono .entry-footer {
   border-top: solid 1px #eee;
   padding-top: 7px;
   margin-top: 25px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031990}}
 #primary-mono .entry-footer a:hover {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000031998}}
 #primary-mono .entry-footer .post-edit-link {
   float: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032002}}
 #primary-mono .entry-footer .cat-links {
   margin-right: 6px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032007}}
 #primary-mono .entry-content {
   color: #777;
   line-height: 1.7em;
   font-size: 14px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032013}}
 #primary-mono.page h1.entry-title:after {
   display: none;
 }
 
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032019}}
   #primary-mono {
     padding-left: 10px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032024}}
 .edit-link {
   display: inline-block;
   float: right;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032029}}
 .page-header {
   margin-top: 0px;
   border-bottom: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032033}}
 .page-header h1 {
   font-size: 18px;
   font-weight: normal;
@@ -1753,32 +2038,39 @@ aside:nth-child(odd) {
 }
 
 /* --------------- comments -------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032045}}
 #respond h3#reply-title {
   font-weight: normal;
   font-size: 32px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032050}}
 #respond input {
   background: #f2f2f2;
   border: solid 1px #cccccc;
   color: #777;
   outline: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032051}}
 #respond input[type=text] {
   max-width: 550px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032061}}
 #respond textarea {
   background: #f2f2f2;
   border: solid 1px #cccccc;
   color: #777;
   outline: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032068}}
 #respond .comment-form-author, #respond .comment-form-email, #respond .comment-form-url, #respond .comment-form-comment {
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032072}}
 #respond .comment-form-author input, #respond .comment-form-email input, #respond .comment-form-url input, #respond .comment-form-comment input, #respond .comment-form-author textarea, #respond .comment-form-email textarea, #respond .comment-form-url textarea, #respond .comment-form-comment textarea {
   padding: 4px 5px 5px 10px;
   border-radius: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032077}}
 #respond .comment-form-author label, #respond .comment-form-email label, #respond .comment-form-url label {
   background: #1f649c;
   color: #fff;
@@ -1787,6 +2079,7 @@ aside:nth-child(odd) {
   margin-right: -5px;
   min-width: 70px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032086}}
 #respond .comment-form-comment label {
   background: #1f649c;
   color: #fff;
@@ -1796,6 +2089,7 @@ aside:nth-child(odd) {
   min-width: 70px;
   margin-bottom: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032096}}
 #respond .form-submit input[type=submit] {
   box-shadow: none;
   text-shadow: none;
@@ -1805,20 +2099,25 @@ aside:nth-child(odd) {
   color: #1f649c;
   margin-bottom: 60px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032106}}
 #respond .comment-notes, #respond .logged-in-as {
   color: #777;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032111}}
 #comments {
   margin-top: 55px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032114}}
 #comments h2.comments-title {
   font-size: x-large;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032118}}
 #comments ol.comment-list {
   list-style: none;
   margin-left: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032124}}
 #comments li.comment {
   border: solid 1px #e0e0e0;
   padding: 10px;
@@ -1826,10 +2125,12 @@ aside:nth-child(odd) {
   list-style: none;
   background: #f7f7f7;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032131}}
 #comments li.comment .comment-content {
   color: #777777;
   font-weight: lighter;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032137}}
 #comments li.trackback {
   background: #ffffff;
   padding: 10px;
@@ -1838,20 +2139,25 @@ aside:nth-child(odd) {
   border: solid 1px #eee;
   font-weight: bold;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032145}}
 #comments li.trackback a {
   font-weight: normal;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032151}}
 #comments .vcard img {
   border: solid 4px #fff;
   border-radius: 5px;
   margin: 0 10px 10px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032157}}
 #comments .form-allowed-tags {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032161}}
 #comments .comment-metadata {
   font-weight: bold;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032164}}
 #comments .comment-metadata time {
   float: right;
   color: #b3b3b3;
@@ -1861,11 +2167,13 @@ aside:nth-child(odd) {
 }
 
 @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032175}}
   li.comment {
     margin-left: -5%;
   }
 }
 /* SLIDEOUT MENU */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032182}}
 .slideout-menu {
   position: fixed;
   left: 0;
@@ -1879,16 +2187,20 @@ aside:nth-child(odd) {
   display: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032195}}
 .slideout-open {
   overflow: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032198}}
 .slideout-open body, .slideout-open .slideout-panel {
   overflow: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032202}}
 .slideout-open .slideout-menu {
   display: block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032207}}
 .mobile-toggle-button {
   position: fixed !important;
   top: 5px !important;
@@ -1904,25 +2216,30 @@ aside:nth-child(odd) {
   outline: none;
   left: 5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032221}}
 .mobile-toggle-button:hover {
   box-shadow: none;
 }
 
 @media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032229}}
   .mobile-toggle-button {
     display: none;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032234}}
 #mobile-static-menu {
   background: white;
   border-right: solid 3px #1f649c;
   padding: 15px;
   box-shadow: inset -5px 0 5px #ddd;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032240}}
 #mobile-static-menu ul {
   list-style: none;
   margin-left: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032245}}
 #mobile-static-menu ul li a {
   padding: 10px;
   border-bottom: solid 1px #eee;
@@ -1931,13 +2248,16 @@ aside:nth-child(odd) {
   color: #1f649c;
   font-size: 16px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032253}}
 #mobile-static-menu ul li a:hover {
   background: #eee;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032258}}
 #mobile-static-menu ul li ul {
   margin-left: 15px;
   color: #ddd;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032262}}
 #mobile-static-menu ul li ul li a {
   padding: 5px;
   border-bottom: none;
@@ -1946,35 +2266,42 @@ aside:nth-child(odd) {
 }
 
 @media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032274}}
   #mobile-static-menu {
     display: none;
   }
 }
 /* ----- Custom ----- */
 /* --- Structure --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032282}}
 .mega-container.content {
   border-top: solid 3px #1f649c;
   top: inherit;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032286}}
 .mega-container.content .content {
   border-top: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032291}}
 #primary {
   overflow: auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032295}}
 footer {
   margin-top: 5rem;
 }
 
 /* --- Banner --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032301}}
 .site-branding .title-font {
   font-family: "Nexa Bold", sans-serif !important;
   letter-spacing: 0.25rem;
 }
 
 /* --- Internships Banner --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032308}}
 #internships-banner {
   background-color: #4aa3e5;
   color: #f2f2f2;
@@ -1985,25 +2312,30 @@ footer {
   left: 0;
   z-index: 2;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032318}}
 #internships-banner h4, #internships-banner p {
   float: left;
   margin: 0;
   letter-spacing: 0.015rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032324}}
 #internships-banner h4 {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 2rem 2.5rem 1.75rem 5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032330}}
 #internships-banner p {
   font-size: 1.45rem;
   padding: 1.75rem 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032335}}
 #internships-banner a {
   color: white;
   font-style: italic;
   text-decoration: underline;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032341}}
 #internships-banner button {
   background-color: transparent;
   border: none;
@@ -2017,17 +2349,21 @@ footer {
 }
 
 /* --- Static bar which shows up after we have scrolled a little --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032356}}
 #static-bar {
   background-color: #f7f7f7;
   padding: 0.35rem;
   padding-top: 0.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032361}}
 #static-bar #static-logo {
   margin-left: 10%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032364}}
 #static-bar #static-logo h1 {
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032368}}
 #static-bar #static-logo a {
   display: block;
   font-family: "Fira Sans" !important;
@@ -2037,17 +2373,21 @@ footer {
   text-shadow: none !important;
   vertical-align: middle;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032379}}
 #static-bar #static-menu {
   left: 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032383}}
 #static-bar #searchicon {
   margin-right: 10%;
 }
 
 /* --- Search Bar --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032391}}
 #masthead .top-search label {
   width: 30%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032395}}
 #masthead .top-search input[type="search"] {
   background-color: rgba(255, 255, 255, 0.875);
   border-width: 0.35rem;
@@ -2059,18 +2399,22 @@ footer {
 }
 
 /* --- Navigation Links --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032408}}
 #top-bar {
   background-color: rgba(255, 255, 255, 0.875) !important;
   bottom: -5px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032413}}
 #top-menu ul li {
   margin: auto 2.5%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032417}}
 #top-menu ul li a:hover, #top-menu ul li a:active {
   text-decoration: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032423}}
 .current_page_item a {
   border-bottom: 3px solid #1f649c;
   font-style: italic;
@@ -2079,6 +2423,7 @@ footer {
 }
 
 /* --- Posts --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032432}}
 .page-description {
   color: #595959;
   font-size: 2rem;
@@ -2086,81 +2431,100 @@ footer {
   margin-bottom: 2.5rem;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032439}}
 h4.page-description {
   font-size: 1.5rem;
   line-height: 175%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032444}}
 .page-description em {
   color: #1f649c;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032448}}
 .freak-single-entry-header {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032451}}
 .freak-single-entry-header .layer {
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032455}}
 .freak-single-entry-header .container {
   text-align: center;
   width: 90%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032460}}
 .freak-single-entry-header h1 {
   font-size: 4.75rem;
   margin: 4.35rem auto 2.35rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032465}}
 .freak-single-entry-header .entry-meta {
   margin: 2.5rem auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032470}}
 .mega-container-1 {
   margin-top: 0;
   padding-top: 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032474}}
 .mega-container-1 #primary, .mega-container-1 #primary-mono {
   padding: 0 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032478}}
 .mega-container-1 #primary .entry-footer, .mega-container-1 #primary-mono .entry-footer {
   border: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032482}}
 .mega-container-1 #content {
   margin-top: 0.5rem;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032487}}
 .mega-container-2 {
   margin-top: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032491}}
 .no-thumb {
   padding-bottom: 2%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032495}}
 #primary-mono .entry-footer {
   border-top: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032499}}
 .single-post .mega-container {
   padding-top: 0;
 }
 
 /* --- Single Posts --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032505}}
 .single .mega-container-1 {
   height: 0;
   padding: 2px;
 }
 
 /* --- Blog Posts --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032512}}
 .single-blog .mega-container-1 {
   display: none;
 }
 
 /* --- Featured Videos --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032518}}
 .featured-writers .featured-writer {
   float: left;
   margin: 2.5996533795%;
   position: relative;
   width: 44.71403812%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032524}}
 .featured-writers .featured-writer .play-icon {
   display: block;
   height: 45%;
@@ -2171,6 +2535,7 @@ h4.page-description {
   bottom: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032535}}
 .featured-writers .featured-writer .overlay {
   border-radius: 0.75rem;
   cursor: pointer;
@@ -2178,6 +2543,7 @@ h4.page-description {
   position: relative;
   overflow: hidden;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032542}}
 .featured-writers .featured-writer .overlay::before {
   background-color: rgba(73, 73, 73, 0.35);
   border-radius: 0.75rem;
@@ -2188,71 +2554,88 @@ h4.page-description {
   bottom: 0;
   left: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032554}}
 .featured-writers .featured-writer .overlay.is-audio .play-icon {
   height: 60%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032558}}
 .featured-writers .featured-writer .overlay.is-audio::before {
   background-color: rgba(73, 73, 73, 0.75);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032563}}
 .featured-writers .featured-writer .overlay img {
   border-radius: 1rem;
   float: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032569}}
 .featured-writers .featured-writer .video-metadata {
   color: #595959;
   font-family: "Lora", serif;
   padding: 0 0.5rem;
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032576}}
 .featured-writers .featured-writer .video-metadata a:link, .featured-writers .featured-writer .video-metadata a:visited {
   color: #595959;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032581}}
 .featured-writers .featured-writer .video-metadata h1 {
   color: #353535;
   font-size: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032586}}
 .featured-writers .featured-writer .video-metadata .pro_affiliation {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032594}}
 .featured-writers .featured-writer:hover .overlay::before {
   background-color: rgba(73, 73, 73, 0.75);
   transition: all 175ms;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032599}}
 .featured-writers .featured-writer:hover .play-icon {
   transform: scale(1.25);
   transition: all 125ms;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032607}}
 .single-featured-video #page {
   background-color: #2d2d2d;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032611}}
 .single-featured-video .container.content {
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032615}}
 .single-featured-video .mega-container-1 {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032619}}
 .single-featured-video .mega-container-2 {
   background-color: #2d2d2d;
   border-top: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032624}}
 .single-featured-video .freak-single-entry-header {
   color: #f4f4f4;
   font-family: "Lora", serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032628}}
 .single-featured-video .freak-single-entry-header h1 {
   font-size: 4.5rem;
   line-height: 75%;
   text-shadow: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032634}}
 .single-featured-video .freak-single-entry-header h4 {
   color: #e1e1e1;
   font-family: "Lora-Italic", "Lora", serif;
   font-size: 1.5rem;
   line-height: 150%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032641}}
 .single-featured-video .freak-single-entry-header h6 {
   color: #e1e1e1;
   font-family: "Lora-Italic", "Lora", serif;
@@ -2261,28 +2644,35 @@ h4.page-description {
   font-size: 1.15rem;
   letter-spacing: 0.1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032651}}
 .single-featured-video #primary-mono {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032657}}
 .single-featured-video .mejs-container {
   margin: 2.5rem auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032660}}
 .single-featured-video .mejs-container video {
   border-radius: 0.75rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032664}}
 .single-featured-video .mejs-container .mejs-controls {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032669}}
 .single-featured-video #colophon.site-footer {
   margin-top: 1rem;
 }
 
 /* --- Featured Writer Sorting Widget --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032677}}
 #secondary .widget_sortwidget ul li::before {
   content: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032681}}
 #secondary .widget_sortwidget ul ul {
   font-size: 1.25rem;
   line-height: 50%;
@@ -2290,69 +2680,86 @@ h4.page-description {
   margin-bottom: 0.75rem;
   width: 90%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032688}}
 #secondary .widget_sortwidget ul ul li {
   border: none;
   box-shadow: none;
   line-height: 150%;
   padding: 0.5rem 1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032694}}
 #secondary .widget_sortwidget ul ul li::before {
   content: "\f054";
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032700}}
 #secondary .widget_sortwidget ul ul a:link, #secondary .widget_sortwidget ul ul a:visited {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032704}}
 #secondary .widget_sortwidget ul ul a:hover, #secondary .widget_sortwidget ul ul a:active {
   color: #2985d0;
   font-style: italic;
 }
 
 /* --- Press Releases --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032716}}
 .page-template-page-press-releases .press-release h4 a {
   color: #333333;
   font-family: "Lora", serif;
   font-size: 2.35rem;
   line-height: 150%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032722}}
 .page-template-page-press-releases .press-release h4 a:hover {
   font-style: italic;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032727}}
 .page-template-page-press-releases .press-release p {
   font-size: 1.45rem;
   line-height: 200%;
   letter-spacing: 0.01rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032732}}
 .page-template-page-press-releases .press-release p span {
   color: #1f649c;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032737}}
 .page-template-page-press-releases .press-release a {
   font-size: 1.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032740}}
 .page-template-page-press-releases .press-release a.read-more:last-of-type {
   display: block;
   padding: 2.5rem 0 0.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032747}}
 .page-template-page-press-releases .older-releases, .page-template-page-press-releases .newer-releases {
   margin-top: 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032751}}
 .page-template-page-press-releases .older-releases {
   float: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032755}}
 .page-template-page-press-releases .newer-releases {
   float: right;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032761}}
 .single-press-releases #primary-mono .entry-footer {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032765}}
 .single-press-releases #colophon.site-footer {
   margin-top: 3.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032769}}
 .single-press-releases .mega-container {
   padding-top: 0;
 }
 
 /* --- About --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032776}}
 .intern {
   /* Parent is 576px wide */
   background-position: center center;
@@ -2371,6 +2778,7 @@ h4.page-description {
   width: 44.791666667%;
   /* 258px */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032797}}
 .intern section {
   background-color: transparent;
   cursor: pointer;
@@ -2390,11 +2798,13 @@ h4.page-description {
   -ms-user-select: none;
   user-select: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032817}}
 .intern section:hover {
   background-color: whitesmoke;
   border-radius: 0.35rem;
   opacity: 1;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032823}}
 .intern section:active {
   /**
    * Make sure the 'background' color is last to
@@ -2415,25 +2825,30 @@ h4.page-description {
   box-sizing: border-box;
   transform: scale(0.925, 0.95);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032850}}
 .intern section a {
   color: #333333;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032855}}
 .intern section:active a {
   color: black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032859}}
 .intern section h4 {
   font-size: 1.65rem;
   font-weight: 600;
   line-height: 125%;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032866}}
 .intern section p {
   font-size: 1.35rem;
   line-height: 175%;
 }
 
 /* --- Single Intern Biographies --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032876}}
 .single-intern_biography .attachment-full {
   border: 0.35rem solid #F7F7F7;
   border-radius: 0.75rem;
@@ -2441,9 +2856,11 @@ h4.page-description {
   margin: auto;
   width: 35%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032884}}
 .single-intern_biography .mega-container.content {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032888}}
 .single-intern_biography .wp-post-image {
   float: left;
   margin-vo: 3.5%;
@@ -2451,26 +2868,31 @@ h4.page-description {
 }
 
 /* --- Contact --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032897}}
 #contact-form {
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032900}}
 #contact-form input, #contact-form textarea {
   background-color: rgba(252, 252, 252, 0.95);
   border: 2px solid #dcdcdc;
   border-radius: 0.5rem;
   margin: 0.867062047%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032907}}
 #contact-form input {
   float: left;
   padding: 1rem 0;
   text-indent: 2.25rem;
   width: 48.208649811%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032914}}
 #contact-form textarea {
   padding: 2.25rem;
   resize: vertical;
   width: 98.263888889%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032920}}
 #contact-form .contact-submit-button {
   color: #505050;
   font-size: 1.65rem;
@@ -2479,11 +2901,13 @@ h4.page-description {
   transition: all 125ms;
   width: 22.5%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032928}}
 #contact-form .contact-submit-button:hover {
   background-color: #fff;
   color: #000;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032935}}
 .sending-snackbar {
   background: #f7f7f7;
   border-top: 2px solid #dcdcdc;
@@ -2499,6 +2923,7 @@ h4.page-description {
   transition: all 175ms;
   width: 20%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032950}}
 .sending-snackbar p {
   color: #3c3c3c;
   margin: 0;
@@ -2506,63 +2931,79 @@ h4.page-description {
 }
 
 /* --- Comments --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032961}}
 #respond .comment-form-comment label {
   width: 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032965}}
 #respond .comment-form-comment textarea {
   resize: vertical;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032970}}
 #respond .comment-form label {
   font-weight: 300;
   text-indent: 0.65rem;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032976}}
 #comments {
   margin-top: 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032979}}
 #comments li.comment {
   padding: 1.5rem 1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032983}}
 #comments h2.comments-title {
   font-size: 2.25rem;
   line-height: 125%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032988}}
 #comments .comment-metadata {
   margin-bottom: 0.35rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032992}}
 #comments .fn {
   font-style: normal;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000032996}}
 #comments .reply {
   float: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033000}}
 #comments time, #comments .edit-link {
   margin-right: 1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033004}}
 #comments time {
   margin-top: 0.225rem;
   margin-bottom: 0.225rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033009}}
 #comments .comment-content {
   color: #525252 !important;
   line-height: 165%;
 }
 
 /* --- Footer --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033017}}
 #colophon.site-footer {
   padding: 3.5% 0;
 }
 
 /* --- Response --- */
 @media screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033023}}
   #masthead.header-medium .top-search {
     padding-bottom: 7.5rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033027}}
   #top-bar > .container:first-of-type, #top-menu {
     padding: 0;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033031}}
   .mobile-toggle-bar {
     background-color: #F9F9F9;
     border-bottom: solid 2px #1f649c;
@@ -2575,6 +3016,7 @@ h4.page-description {
     z-index: 1;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033043}}
   .mobile-toggle-button {
     background-color: transparent;
     font-size: 2.75rem;
@@ -2584,11 +3026,13 @@ h4.page-description {
     left: 0 !important;
     width: 12.5%;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033052}}
   .mobile-toggle-button:focus {
     border: 0;
     box-shadow: none;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033058}}
   #mobile-static-menu {
     background-color: transparent;
     border-right: solid 6px rgba(19, 61, 96, 0.15);
@@ -2596,123 +3040,153 @@ h4.page-description {
     padding-top: 5rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033065}}
   .current_page_item a {
     margin: 0;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033070}}
   #internships-banner h4 {
     padding: 2rem 0 0 2rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033074}}
   #internships-banner p {
     padding: 1.75rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033080}}
   .mega-container-1 #primary-mono {
     overflow: auto;
     padding-left: 0.75rem;
     padding-bottom: 5rem;
     padding-right: 0.75rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033087}}
   .mega-container-1 #primary {
     margin-bottom: 3.5rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033092}}
   .single .entry-title {
     font-size: 2.5rem;
     line-height: 150%;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033097}}
   .single-featured-video .entry-meta h1 {
     line-height: 115%;
     margin: 3.25rem auto 0;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033102}}
   .no-thumb {
     padding: 0;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033106}}
   .grid {
     border-bottom: solid 1px #eee;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033109}}
   .grid .out-thumb h1 a {
     line-height: 150%;
     text-decoration: none;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033113}}
   .grid .out-thumb h1 a:before {
     left: 0;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033118}}
   .grid:last-of-type {
     border-bottom: none;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033123}}
   .featured-writers .featured-writer {
     width: 95%;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033126}}
   .featured-writers .featured-writer .overlay {
     min-height: 115px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033130}}
   .featured-writers .featured-writer .video-metadata {
     padding: 0 1.25rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033133}}
   .featured-writers .featured-writer .video-metadata h1 {
     font-size: 1.75rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033137}}
   .featured-writers .featured-writer .video-metadata p {
     font-size: 1.5rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033141}}
   .featured-writers .featured-writer .video-metadata .pro_affiliation {
     right: 1.25rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033147}}
   #secondary {
     padding: 0;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033150}}
   #secondary .widget {
     padding: 0;
     padding-top: 4rem;
     position: relative;
     width: 100%;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033156}}
   #secondary .widget h1 {
     position: absolute;
     top: 0;
     right: 1rem;
     left: 1rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033163}}
   #secondary .widget ul {
     padding: 1.5rem;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033169}}
   #colophon.site-footer {
     margin-top: 2.5rem;
     padding: 7.5% 0;
   }
 }
 @media screen and (max-width: 635px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033176}}
   #masthead .top-search label {
     width: 50%;
   }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033180}}
   #contact-form input {
     width: 98.269980507% !important;
   }
 }
 @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033187}}
   #masthead .site-branding {
     padding: 0;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033190}}
   #masthead .site-branding h1.site-title {
     font-size: 5.85rem;
     margin-bottom: 5rem;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033196}}
   #masthead .top-search label {
     width: 80%;
   }
 
   /* --- About --- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033203}}
   .intern {
     width: 95%;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexander\/Sites\/KJEM\/wp-content\/themes\/freak-child\/style\.scss}line{font-family:\000033206}}
   .intern section:active {
     transform: scale(0.935, 0.9);
   }
@@ -2728,3 +3202,5 @@ h4.page-description {
   src: url("assets/fonts/FiraSans-Regular.eot");
   src: url("assets/fonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/FiraSans-Regular.woff2") format("woff2"), url("assets/fonts/FiraSans-Regular.woff") format("woff"), url("assets/fonts/FiraSans-Regular.ttf") format("truetype"), url("assets/fonts/FiraSans-Regular.svg#nexa_boldregular") format("svg");
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -5,10 +5,25 @@ let exec = require('child_process').exec;
 let compass = require('gulp-compass');
 let browserSync = require('browser-sync').create();
 
-gulp.task('default', ['compass'], () => {
+gulp.task('default', ['compass', 'browserSync'], () => {
   // Start watching the Less files
   exec('cd wp-content/themes/freak/assets/less && watch-less -r ../css/ -e .css');
+});
 
+gulp.task('compass', () => {
+  gulp.src('./wp-content/themes/freak-child/*.scss')
+    .pipe(compass({
+      config_file: './config.rb',
+      css: './wp-content/themes/freak-child/',
+      sass: './wp-content/themes/freak-child/',
+      sourcemap: true,
+      debug: true,
+      task: 'watch'
+    }))
+    .pipe(gulp.dest('./wp-content/themes/freak-child/'));
+});
+
+gulp.task('browserSync', () => {
   // Start Browser-Sync
   browserSync.init({
     proxy: 'kjemconsulting.dev',
@@ -28,16 +43,6 @@ gulp.task('default', ['compass'], () => {
     open: true,
     browser: "Google Chrome"
   });
-});
-
-gulp.task('compass', () => {
-  gulp.src('./wp-content/themes/freak-child/*.scss')
-    .pipe(compass({
-      config_file: './config.rb',
-      css: './wp-content/themes/freak-child/',
-      sass: './wp-content/themes/freak-child/'
-    }))
-    .pipe(gulp.dest('./wp-content/themes/freak-child/'));
 });
 
 gulp.task('db:pull', (done) => {

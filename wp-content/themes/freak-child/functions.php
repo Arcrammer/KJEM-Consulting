@@ -43,7 +43,8 @@ function create_biography_post_type() {
       'title',
       'editor',
       'excerpt',
-      'thumbnail'
+      'thumbnail',
+      'custom-fields'
     ]
   ]);
   add_theme_support('post-thumbnails', ['intern_biography']);

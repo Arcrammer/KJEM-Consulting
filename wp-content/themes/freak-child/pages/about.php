@@ -26,16 +26,20 @@ get_header();
         $aboutPagePost->the_post();
         get_template_part('content', 'page');
 
-        echo "<pre>";
-          var_dump($biographyQuery->get_posts());
-        echo "</pre>";
-
+        ?>
+        <h3>Our Interns:</h3>
+        <?php
         if ($biographyQuery->have_posts()) {
           while ($biographyQuery->have_posts()):
             $biographyQuery->the_post();
+            $biography = get_post();
           ?>
-            <section class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
-            </section> <!-- .intern -->
+            <div class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
+              <section>
+                <h4><?= $biography->post_title ?></h4>
+                <p><?= $biography->post_excerpt ?></p>
+              </section>
+            </div> <!-- .intern -->
           <?php
           endwhile;
         }

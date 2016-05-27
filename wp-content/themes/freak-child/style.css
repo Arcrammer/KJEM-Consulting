@@ -12,6 +12,9 @@
  Text Domain:  freak-child
 */
 /* Globals */
+main {
+  overflow: auto;
+}
 .body-font {
   font-family: "Roboto Slab", sans-serif;
 }
@@ -2332,6 +2335,84 @@ h4.page-description {
   padding-top: 0;
 }
 
+/* --- About --- */
+.intern {
+  /* Parent is 576px wide */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.25rem solid #DADADA;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  float: left;
+  margin: 2.6041666667%; /* 5px */
+  padding-bottom: 56.597222222%; /* 326px */
+  position: relative;
+  transition: box-shadow 225ms;
+  width: 44.791666667%; /* 258px */
+}
+
+.intern section {
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0;
+  padding: 5% 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  transition: background 225ms, opacity 225ms, transform 125ms;
+
+  /* Prevent selection */
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.intern section:hover {
+  background-color: whitesmoke;
+  border-radius: 0.35rem;
+  color: #333333;
+  opacity: 1;
+}
+
+.intern section:active {
+  /**
+   * Make sure the 'background' color is last to
+   * prevent browser glitches — Namely in Chrome
+   */
+  /* Edit this gradient: http://colorzilla.com/gradient-editor/#ededed+0,f5f5f5+100 */
+  background: -moz-linear-gradient(top, #ededed 0%, #f5f5f5 100%); /* Firefox 3.6 to 15 */
+  background: -webkit-linear-gradient(top, #ededed 0%,#f5f5f5 100%); /* Chrome 10 to 25, Safar 5.1 to 6 */
+  background: linear-gradient(to bottom, #ededed 0%,#f5f5f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#f5f5f5',GradientType=0); /* IE 6 to 9 */
+  background: #ededed; /* Old browsers */
+
+  box-shadow: 0 0 0 0.15rem #DADADA;
+  box-sizing: border-box;
+  transform: scale(0.925, 0.95);
+}
+
+.intern section:active h4, .intern section:active p {
+  color: black;
+}
+
+.intern section h4 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  line-height: 125%;
+  text-align: center;
+}
+
+.intern section p {
+  font-size: 1.35rem;
+  line-height: 175%;
+}
+
 /* --- Contact --- */
 #contact-form {
   text-align: center;
@@ -2577,6 +2658,15 @@ h4.page-description {
   }
   #masthead .top-search label {
     width: 80%;
+  }
+
+  /* --- About --- */
+  .intern {
+    width: 95%;
+  }
+
+  .intern section:active {
+    transform: scale(0.935, 0.9);
   }
 }
 

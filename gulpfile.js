@@ -27,6 +27,8 @@ gulp.task('default', () => {
     open: true,
     browser: "Google Chrome"
   });
+}).on('finish', () => {
+  console.log('ended');
 });
 
 gulp.task('db:pull', (done) => {

@@ -1,6 +1,7 @@
 "use strict";
 
 let gulp = require('gulp');
+let fs = require('fs');
 let gutil = require('gulp-util');
 let exec = require('child_process').exec;
 let spawn = require('child_process').spawn;
@@ -64,12 +65,10 @@ gulp.task('db:pull', (done) => {
 
     // Import the dump to MySQL on the development server
     exec(`mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development < ${dump_filename}`, () => {
-      // Change the .beta TLD's to .dev in 'wp_posts'
-      exec('mysql -u alexander --password=$DOLOMITE_DATABASE_PASSWORD -e "UPDATE wp_posts SET guid=replace(guid, \'.beta\', \'.dev\')" KJEM-Development', () => {
-        exec(`rm ${dump_filename}`, () => {
-          console.log('Production database was successfully imported.');
-          done();
-        });
+      // Get rid of the dump file
+      exec(`rm ${dump_filename}`, () => {
+        gutil.log(gutil.colors.green('Production database was successfully imported.'));
+        done();
       });
     });
   });
@@ -85,16 +84,33 @@ gulp.task('db:push', (done) => {
     if (err) throw err;
   });
 
-  // Get a dump of the development database
-  exec(`mysqldump -u alexander -h localhost --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development > ${dump_filename}`, (err, stdout, stderr) => {
-    // Import the dump to MySQL on the production server
-    console.log("Uploading the development database");
-    exec(`mysql -u kjemcon1_wp_v3n9 --password=$KJEM_PRODUCTION_PASSWORD -h kjemconsulting.com kjemcon1_wp_v3n9 < ${dump_filename}`, (err) => {
-      if (err) throw err;
-      console.log("All done");
-      done();
-    });
+  let mysqldump = spawn('mysqldump', [
+    '-v',
+    '-h kjemconsulting.com',
+    '-u alexander',
+    '--password=' + process.env.KJEM_PRODUCTION_PASSWORD,
+    'kjemcon1_wp_v3n9 < KJEM-Development.sql'
+  ], {
+    stdio: 'inherit'
   });
+
+  mysqldump.on('close', () => {
+    console.log('All done');
+    done();
+    process.exit();
+  });
+
+  // Get a dump of the development database
+  // exec(`mysqldump -u alexander -h localhost --password=$DOLOMITE_DATABASE_PASSWORD KJEM-Development > ${dump_filename}`, (err, stdout, stderr) => {
+  //   // Import the dump to MySQL on the production server
+  //   console.log("Uploading the development database");
+    // exec(`mysql -u kjemcon1_wp_v3n9 --password=$KJEM_PRODUCTION_PASSWORD -h kjemconsulting.com kjemcon1_wp_v3n9 < ${dump_filename}`, (err) => {
+  //     if (err) throw err;
+  //     gutil.log(gutil.colors.green("All done"));
+  //     done();
+  //     process.exit();
+  //   });
+  // });
 });
 
 gulp.task('assets', (done) => {

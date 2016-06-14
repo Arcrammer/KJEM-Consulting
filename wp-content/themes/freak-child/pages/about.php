@@ -39,6 +39,7 @@ get_header();
                 <a href="<?= $biography->guid ?>">
                   <h4><?= $biography->post_title ?></h4>
                   <p><?= $biography->post_excerpt ?></p>
+                  <a href="<?= $biography->guid ?>">Read More...</a>
                 </a>
               </section>
             </div> <!-- .intern -->

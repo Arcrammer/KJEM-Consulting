@@ -28,32 +28,34 @@ get_header();
 
         ?>
         <h3>Our Interns:</h3>
-        <?php
-        if ($biographyQuery->have_posts()) {
-          while ($biographyQuery->have_posts()):
-            $biographyQuery->the_post();
-            $biography = get_post();
-          ?>
-            <div class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
-              <section>
-                <a href="<?= $biography->guid ?>">
-                  <h4><?= $biography->post_title ?></h4>
-                  <p><?= $biography->post_excerpt ?></p>
-                  <a href="<?= $biography->guid ?>">Read More...</a>
-                </a>
-              </section>
-            </div> <!-- .intern -->
+        <div class="interns">
           <?php
-          endwhile;
-        }
+          if ($biographyQuery->have_posts()) {
+            while ($biographyQuery->have_posts()):
+              $biographyQuery->the_post();
+              $biography = get_post();
+            ?>
+              <div class="intern" style="background-image: url(<?= the_post_thumbnail_url() ?>)">
+                <section>
+                  <a href="<?= $biography->guid ?>">
+                    <h4><?= $biography->post_title ?></h4>
+                    <p><?= $biography->post_excerpt ?></p>
+                    <a href="<?= $biography->guid ?>">Read More...</a>
+                  </a>
+                </section>
+              </div> <!-- .intern -->
+            <?php
+            endwhile;
+          }
 
-        // If comments are open or we have at least
-        // one comment, load up the comment template
-				if (comments_open() || get_comments_number()) {
-					comments_template();
+          // If comments are open or we have at least
+          // one comment, load up the comment template
+  				if (comments_open() || get_comments_number()) {
+  					comments_template();
+          }
         }
-      }
-    ?>
+      ?>
+    </div> <!-- .interns -->
 	</main> <!-- #main -->
 </div> <!-- #primary -->
 

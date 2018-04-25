@@ -7,7 +7,7 @@
  */
 
  add_action('wp_footer', function () {
-   echo '<script src="'.get_template_directory_uri().'/assets/scripts/contact.js"></script>';
+   echo '<script src="/wp-content/themes/freak-child/assets/scripts/contact.js"></script>';
  }, 20);
 
  if ($_POST) {

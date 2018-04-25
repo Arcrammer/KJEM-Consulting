@@ -29,11 +29,6 @@ body {
   font-family: "Roboto Slab", sans-serif;
   background: #fff;
   word-wrap: break-word;
-
-  &.custom-background {
-    // TODO: Figure out what's giving it a "custom background" >___>
-    background: #fff;
-  }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

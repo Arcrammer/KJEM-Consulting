@@ -35,7 +35,9 @@
         },
         success: function (response) {
           // Tell the user it's sent
-          $('.sending-snackbar p').text('Sent!');
+          // $('.sending-snackbar p').text('Sent!');
+          $('#contact-form').hide(0);
+          $('.page-description').text('Your message has been sent.').css('font-size', '2.5rem');
 
           setTimeout(function () {
             // Hide the snackbar
